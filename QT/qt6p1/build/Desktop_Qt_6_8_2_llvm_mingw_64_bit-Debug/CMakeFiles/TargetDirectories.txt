@@ -1,0 +1,9 @@
+D:/Training/QT/qt6p1/build/Desktop_Qt_6_8_2_llvm_mingw_64_bit-Debug/CMakeFiles/qt6p1.dir
+D:/Training/QT/qt6p1/build/Desktop_Qt_6_8_2_llvm_mingw_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Training/QT/qt6p1/build/Desktop_Qt_6_8_2_llvm_mingw_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Training/QT/qt6p1/build/Desktop_Qt_6_8_2_llvm_mingw_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/Training/QT/qt6p1/build/Desktop_Qt_6_8_2_llvm_mingw_64_bit-Debug/CMakeFiles/install.dir
+D:/Training/QT/qt6p1/build/Desktop_Qt_6_8_2_llvm_mingw_64_bit-Debug/CMakeFiles/install/local.dir
+D:/Training/QT/qt6p1/build/Desktop_Qt_6_8_2_llvm_mingw_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/Training/QT/qt6p1/build/Desktop_Qt_6_8_2_llvm_mingw_64_bit-Debug/CMakeFiles/qt6p1_autogen_timestamp_deps.dir
+D:/Training/QT/qt6p1/build/Desktop_Qt_6_8_2_llvm_mingw_64_bit-Debug/CMakeFiles/qt6p1_autogen.dir
