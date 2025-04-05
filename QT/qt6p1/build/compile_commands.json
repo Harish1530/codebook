@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/qt6p1_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qt6p1.dir/qt6p1_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/qt6p1_autogen/mocs_compilation.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/qt6p1_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/qt6p1.dir/qt6p1_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/qt6p1_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qt6p1.dir/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/qt6p1/main.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/main.cpp",
+  "output": "CMakeFiles/qt6p1.dir/main.cpp.o"
+}
+]

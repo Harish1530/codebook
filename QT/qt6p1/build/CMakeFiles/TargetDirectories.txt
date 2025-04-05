@@ -1,0 +1,9 @@
+/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/CMakeFiles/qt6p1.dir
+/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/CMakeFiles/edit_cache.dir
+/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/CMakeFiles/rebuild_cache.dir
+/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/CMakeFiles/list_install_components.dir
+/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/CMakeFiles/install.dir
+/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/CMakeFiles/install/local.dir
+/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/CMakeFiles/install/strip.dir
+/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/CMakeFiles/qt6p1_autogen_timestamp_deps.dir
+/home/harish-1530/Git_Checkout/codebook/QT/qt6p1/build/CMakeFiles/qt6p1_autogen.dir

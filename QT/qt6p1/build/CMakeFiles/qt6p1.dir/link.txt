@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/qt6p1.dir/qt6p1_autogen/mocs_compilation.cpp.o CMakeFiles/qt6p1.dir/main.cpp.o -o qt6p1  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 
