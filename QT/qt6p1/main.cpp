@@ -1,22 +1,21 @@
 #include <QCoreApplication>
 #include <QDebug>
+#include <iostream>
+
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    int value = 15;
-    qInfo() << value;
+    std::string name;
+    int age;
 
-    value += 10;
-    qInfo() << value;
+    // Prompt the user for their name and age
+    std::cout << "Enter your name: ";
+    std::getline(std::cin, name);
+    std::cout << "Enter your age: ";
+    std::cin >> age;
 
-    value -= 30;
-    qInfo() << value;
-
-    value *= 20;
-    qInfo() << value;
-
-    value /= 25;
-    qInfo() << value;
+    // Output the user's name and age
+    qInfo() << name.c_str() << "is" << age << "years old.";
 
     return a.exec();
 }
