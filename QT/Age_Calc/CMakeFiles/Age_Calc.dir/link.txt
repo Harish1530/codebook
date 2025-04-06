@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Age_Calc.dir/Age_Calc_autogen/mocs_compilation.cpp.o CMakeFiles/Age_Calc.dir/main.cpp.o -o Age_Calc  /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 
