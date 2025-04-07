@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/Age_Calc/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/Age_Calc/build/Age_Calc_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/Age_Calc.dir/Age_Calc_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/Age_Calc/build/Age_Calc_autogen/mocs_compilation.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/Age_Calc/build/Age_Calc_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Age_Calc.dir/Age_Calc_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/Age_Calc/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/Age_Calc/build/Age_Calc_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/Age_Calc.dir/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/Age_Calc/main.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/Age_Calc/main.cpp",
+  "output": "CMakeFiles/Age_Calc.dir/main.cpp.o"
+}
+]
