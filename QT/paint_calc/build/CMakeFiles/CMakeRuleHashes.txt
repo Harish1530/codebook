@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+2a5722de4a7f5e9f026f7e89cfcd5e43 CMakeFiles/paint_calc_autogen
+2a5722de4a7f5e9f026f7e89cfcd5e43 CMakeFiles/paint_calc_autogen_timestamp_deps
+9432947955acf1b1d07de365369b371f paint_calc_autogen/timestamp
