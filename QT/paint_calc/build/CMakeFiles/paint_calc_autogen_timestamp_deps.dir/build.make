@@ -66,10 +66,10 @@ include CMakeFiles/paint_calc_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/paint_calc_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/paint_calc_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/paint_calc_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
-CMakeFiles/paint_calc_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/paint_calc_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
+CMakeFiles/paint_calc_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+CMakeFiles/paint_calc_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 
 paint_calc_autogen_timestamp_deps: CMakeFiles/paint_calc_autogen_timestamp_deps
 paint_calc_autogen_timestamp_deps: CMakeFiles/paint_calc_autogen_timestamp_deps.dir/build.make

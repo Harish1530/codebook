@@ -3,8 +3,8 @@
 #include <iostream>
 
 int get_size(){
-    int val= 0;
-    std::cout << "Enter the value or 0 to Exit: "<< std::endl;
+    int val = 0;
+    std::cout << "Enter the value or 0 to Exit: " << std::endl;
     std::cin >> val;
     return val;
 }
@@ -22,19 +22,17 @@ int main(int argc, char *argv[])
     qInfo() << "Enter the ceiling height: ";
     int height = get_size();
 
-    if(height<=0) qFatal("Invalid height");
-    
-    do
-    {
-        qInfo() <<"Enter Wall Width: ";
+    if(height <= 0) qFatal("Invalid height");
+
+    do {
+        qInfo() << "Enter Wall Width: ";
         int width = get_size();
-        if(width<=0) break;
+        if(width <= 0) break;
         double g = calc_paint(width, height);
         paint += g;
     } while (true);
-    
+
     qInfo() << "Total Paint Required: " << paint << " liters";
-    
 
     return a.exec();
 }
