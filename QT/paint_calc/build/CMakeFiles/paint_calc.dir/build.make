@@ -73,36 +73,36 @@ paint_calc_autogen/timestamp: /usr/lib/qt6/libexec/moc
 paint_calc_autogen/timestamp: /usr/lib/qt6/libexec/uic
 paint_calc_autogen/timestamp: CMakeFiles/paint_calc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target paint_calc"
-	/usr/bin/cmake -E cmake_autogen /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/CMakeFiles/paint_calc_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/CMakeFiles/paint_calc_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/paint_calc_autogen/timestamp
 
 CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.o: CMakeFiles/paint_calc.dir/flags.make
 CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.o: paint_calc_autogen/mocs_compilation.cpp
 CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.o: CMakeFiles/paint_calc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.o -MF CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/paint_calc_autogen/mocs_compilation.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.o -MF CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/paint_calc_autogen/mocs_compilation.cpp
 
 CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/paint_calc_autogen/mocs_compilation.cpp > CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/paint_calc_autogen/mocs_compilation.cpp > CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/paint_calc_autogen/mocs_compilation.cpp -o CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/paint_calc_autogen/mocs_compilation.cpp -o CMakeFiles/paint_calc.dir/paint_calc_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/paint_calc.dir/main.cpp.o: CMakeFiles/paint_calc.dir/flags.make
 CMakeFiles/paint_calc.dir/main.cpp.o: /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/main.cpp
 CMakeFiles/paint_calc.dir/main.cpp.o: CMakeFiles/paint_calc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/paint_calc.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/paint_calc.dir/main.cpp.o -MF CMakeFiles/paint_calc.dir/main.cpp.o.d -o CMakeFiles/paint_calc.dir/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/paint_calc.dir/main.cpp.o -MF CMakeFiles/paint_calc.dir/main.cpp.o.d -o CMakeFiles/paint_calc.dir/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/main.cpp
 
 CMakeFiles/paint_calc.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/paint_calc.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/main.cpp > CMakeFiles/paint_calc.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/main.cpp > CMakeFiles/paint_calc.dir/main.cpp.i
 
 CMakeFiles/paint_calc.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/paint_calc.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/main.cpp -o CMakeFiles/paint_calc.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/main.cpp -o CMakeFiles/paint_calc.dir/main.cpp.s
 
 # Object files for target paint_calc
 paint_calc_OBJECTS = \

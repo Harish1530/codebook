@@ -72,7 +72,7 @@ paint_calc_autogen/timestamp: /usr/lib/qt6/libexec/moc
 paint_calc_autogen/timestamp: /usr/lib/qt6/libexec/uic
 paint_calc_autogen/timestamp: CMakeFiles/paint_calc_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target paint_calc"
-	/usr/bin/cmake -E cmake_autogen /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/CMakeFiles/paint_calc_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/CMakeFiles/paint_calc_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/harish-1530/Git_Checkout/codebook/QT/paint_calc/build/paint_calc_autogen/timestamp
 
 paint_calc_autogen: CMakeFiles/paint_calc_autogen
