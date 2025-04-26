@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/build/Qt_Class_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/Qt_Class.dir/Qt_Class_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/Qt_class/build/Qt_Class_autogen/mocs_compilation.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/build/Qt_Class_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Qt_Class.dir/Qt_Class_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/build/Qt_Class_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/Qt_Class.dir/source/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/Qt_class/source/main.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/source/main.cpp",
+  "output": "CMakeFiles/Qt_Class.dir/source/main.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/build/Qt_Class_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/Qt_Class.dir/source/animal.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/Qt_class/source/animal.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/Qt_class/source/animal.cpp",
+  "output": "CMakeFiles/Qt_Class.dir/source/animal.cpp.o"
+}
+]

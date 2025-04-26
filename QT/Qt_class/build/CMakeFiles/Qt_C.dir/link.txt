@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Qt_C.dir/source/animal.cpp.o CMakeFiles/Qt_C.dir/source/main.cpp.o -o Qt_C  /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 
