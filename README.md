@@ -8,3 +8,10 @@
 # 6/4/2025:
 * Updated Qt6p1 file
 * Created new project Age_Calc
+
+# 27/4/2025
+* Adding Paint_calc
+* Adding Qt_class
+* Making new project qtclass2
+
+
