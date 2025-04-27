@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/qtclass2.dir/qtclass2_autogen/mocs_compilation.cpp.o CMakeFiles/qtclass2.dir/source/main.cpp.o CMakeFiles/qtclass2.dir/source/animal.cpp.o CMakeFiles/qtclass2.dir/source/mammal.cpp.o CMakeFiles/qtclass2.dir/source/canine.cpp.o CMakeFiles/qtclass2.dir/source/feline.cpp.o -o qtclass2  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 

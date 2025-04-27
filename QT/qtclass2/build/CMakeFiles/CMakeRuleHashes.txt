@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+04b5317ec415516475731b1a645c3a1b CMakeFiles/qtclass2_autogen
+04b5317ec415516475731b1a645c3a1b CMakeFiles/qtclass2_autogen_timestamp_deps
+8337101ab6c63ad53da3e863ee579daf qtclass2_autogen/timestamp

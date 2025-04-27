@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build/qtclass2_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qtclass2.dir/qtclass2_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build/qtclass2_autogen/mocs_compilation.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build/qtclass2_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/qtclass2.dir/qtclass2_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build/qtclass2_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qtclass2.dir/source/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/qtclass2/source/main.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/source/main.cpp",
+  "output": "CMakeFiles/qtclass2.dir/source/main.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build/qtclass2_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qtclass2.dir/source/animal.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/qtclass2/source/animal.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/source/animal.cpp",
+  "output": "CMakeFiles/qtclass2.dir/source/animal.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build/qtclass2_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qtclass2.dir/source/mammal.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/qtclass2/source/mammal.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/source/mammal.cpp",
+  "output": "CMakeFiles/qtclass2.dir/source/mammal.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build/qtclass2_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qtclass2.dir/source/canine.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/qtclass2/source/canine.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/source/canine.cpp",
+  "output": "CMakeFiles/qtclass2.dir/source/canine.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/build/qtclass2_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qtclass2.dir/source/feline.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/qtclass2/source/feline.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/qtclass2/source/feline.cpp",
+  "output": "CMakeFiles/qtclass2.dir/source/feline.cpp.o"
+}
+]
