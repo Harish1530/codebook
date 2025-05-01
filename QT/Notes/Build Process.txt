@@ -26,3 +26,11 @@ int main(int argc, char *argv[])
 
     return a.exec();
 }
+
+after completing the code : create a build directory
+mkdir build && cd build
+then run CMAKE File: cmake ..
+the build process will be completed.
+the make the file: make
+this will link the libraries and load the object files
+Run the output: ./filename
