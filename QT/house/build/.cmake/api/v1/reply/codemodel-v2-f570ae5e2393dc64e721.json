@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c43fd602a432d15a80da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qtclass2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "house::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-house-Debug-722691b65cefe2513ff9.json",
+					"name" : "house",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "house_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-house_autogen-Debug-c0b4dad53d6e96d785fe.json",
+					"name" : "house_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "house_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-house_autogen_timestamp_deps-Debug-c2e98158b4adfe2af845.json",
+					"name" : "house_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/harish-1530/Git_Checkout/codebook/QT/house/build",
+		"source" : "/home/harish-1530/Git_Checkout/codebook/QT/house"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+99b47b12317b7fcf2fa3e8274dd1151a CMakeFiles/house_autogen
+99b47b12317b7fcf2fa3e8274dd1151a CMakeFiles/house_autogen_timestamp_deps
+aa4798c1122043708561ccd5a4408b37 house_autogen/timestamp
