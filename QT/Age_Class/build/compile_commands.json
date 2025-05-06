@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build/Age_Class_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build/Age_Class_autogen/mocs_compilation.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build/Age_Class_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build/Age_Class_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/Age_Class.dir/source/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/main.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/main.cpp",
+  "output": "CMakeFiles/Age_Class.dir/source/main.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build/Age_Class_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/Age_Class.dir/source/agecalc.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/agecalc.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/agecalc.cpp",
+  "output": "CMakeFiles/Age_Class.dir/source/agecalc.cpp.o"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.o CMakeFiles/Age_Class.dir/source/main.cpp.o CMakeFiles/Age_Class.dir/source/agecalc.cpp.o -o Age_Class  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 
