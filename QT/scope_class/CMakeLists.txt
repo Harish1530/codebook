@@ -23,26 +23,26 @@ file(GLOB_RECURSE HEADERS
   "${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp"
 )
 
-add_executable(Age_Class
+add_executable(scope_class
   ${SOURCES}
   ${HEADERS}
   
 )
-target_link_libraries(Age_Class
+target_link_libraries(scope_class
     Qt${QT_VERSION_MAJOR}::Core
 )
 
 # Set the include directories
-target_include_directories(Age_Class
+target_include_directories(scope_class
     PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
     $<INSTALL_INTERFACE:include>
 )
 
-target_link_libraries(Age_Class Qt${QT_VERSION_MAJOR}::Core)
+target_link_libraries(scope_class Qt${QT_VERSION_MAJOR}::Core)
 
 include(GNUInstallDirs)
-install(TARGETS Age_Class
+install(TARGETS scope_class
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )

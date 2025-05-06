@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/scope_class.dir/scope_class_autogen/mocs_compilation.cpp.o CMakeFiles/scope_class.dir/source/animal.cpp.o CMakeFiles/scope_class.dir/source/main.cpp.o -o scope_class  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 

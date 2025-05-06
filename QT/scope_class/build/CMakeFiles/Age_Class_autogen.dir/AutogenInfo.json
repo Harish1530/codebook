@@ -40,7 +40,15 @@
 	"CMAKE_SOURCE_DIR" : "/home/harish-1530/Git_Checkout/codebook/QT/scope_class",
 	"DEP_FILE" : "/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/Age_Class_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "Age_Class_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/harish-1530/Git_Checkout/codebook/QT/scope_class/include/animal.h",
+			"MU",
+			"6YEA5652QU/moc_animal.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/Age_Class_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/Age_Class_autogen/mocs_compilation.cpp",
@@ -91,6 +99,11 @@
 	"SETTINGS_FILE" : "/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/CMakeFiles/Age_Class_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/harish-1530/Git_Checkout/codebook/QT/scope_class/source/animal.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/harish-1530/Git_Checkout/codebook/QT/scope_class/source/main.cpp",
 			"MU",

@@ -162,74 +162,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Age_Class
+# Target rules for targets named scope_class
 
 # Build rule for target.
-Age_Class: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Age_Class
-.PHONY : Age_Class
+scope_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scope_class
+.PHONY : scope_class
 
 # fast build rule for target.
-Age_Class/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Age_Class.dir/build.make CMakeFiles/Age_Class.dir/build
-.PHONY : Age_Class/fast
+scope_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class.dir/build.make CMakeFiles/scope_class.dir/build
+.PHONY : scope_class/fast
 
 #=============================================================================
-# Target rules for targets named Age_Class_autogen_timestamp_deps
+# Target rules for targets named scope_class_autogen_timestamp_deps
 
 # Build rule for target.
-Age_Class_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Age_Class_autogen_timestamp_deps
-.PHONY : Age_Class_autogen_timestamp_deps
+scope_class_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scope_class_autogen_timestamp_deps
+.PHONY : scope_class_autogen_timestamp_deps
 
 # fast build rule for target.
-Age_Class_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Age_Class_autogen_timestamp_deps.dir/build.make CMakeFiles/Age_Class_autogen_timestamp_deps.dir/build
-.PHONY : Age_Class_autogen_timestamp_deps/fast
+scope_class_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class_autogen_timestamp_deps.dir/build.make CMakeFiles/scope_class_autogen_timestamp_deps.dir/build
+.PHONY : scope_class_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named Age_Class_autogen
+# Target rules for targets named scope_class_autogen
 
 # Build rule for target.
-Age_Class_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Age_Class_autogen
-.PHONY : Age_Class_autogen
+scope_class_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scope_class_autogen
+.PHONY : scope_class_autogen
 
 # fast build rule for target.
-Age_Class_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Age_Class_autogen.dir/build.make CMakeFiles/Age_Class_autogen.dir/build
-.PHONY : Age_Class_autogen/fast
+scope_class_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class_autogen.dir/build.make CMakeFiles/scope_class_autogen.dir/build
+.PHONY : scope_class_autogen/fast
 
-Age_Class_autogen/mocs_compilation.o: Age_Class_autogen/mocs_compilation.cpp.o
-.PHONY : Age_Class_autogen/mocs_compilation.o
+scope_class_autogen/mocs_compilation.o: scope_class_autogen/mocs_compilation.cpp.o
+.PHONY : scope_class_autogen/mocs_compilation.o
 
 # target to build an object file
-Age_Class_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Age_Class.dir/build.make CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.o
-.PHONY : Age_Class_autogen/mocs_compilation.cpp.o
+scope_class_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class.dir/build.make CMakeFiles/scope_class.dir/scope_class_autogen/mocs_compilation.cpp.o
+.PHONY : scope_class_autogen/mocs_compilation.cpp.o
 
-Age_Class_autogen/mocs_compilation.i: Age_Class_autogen/mocs_compilation.cpp.i
-.PHONY : Age_Class_autogen/mocs_compilation.i
+scope_class_autogen/mocs_compilation.i: scope_class_autogen/mocs_compilation.cpp.i
+.PHONY : scope_class_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-Age_Class_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Age_Class.dir/build.make CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.i
-.PHONY : Age_Class_autogen/mocs_compilation.cpp.i
+scope_class_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class.dir/build.make CMakeFiles/scope_class.dir/scope_class_autogen/mocs_compilation.cpp.i
+.PHONY : scope_class_autogen/mocs_compilation.cpp.i
 
-Age_Class_autogen/mocs_compilation.s: Age_Class_autogen/mocs_compilation.cpp.s
-.PHONY : Age_Class_autogen/mocs_compilation.s
+scope_class_autogen/mocs_compilation.s: scope_class_autogen/mocs_compilation.cpp.s
+.PHONY : scope_class_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-Age_Class_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Age_Class.dir/build.make CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.s
-.PHONY : Age_Class_autogen/mocs_compilation.cpp.s
+scope_class_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class.dir/build.make CMakeFiles/scope_class.dir/scope_class_autogen/mocs_compilation.cpp.s
+.PHONY : scope_class_autogen/mocs_compilation.cpp.s
+
+source/animal.o: source/animal.cpp.o
+.PHONY : source/animal.o
+
+# target to build an object file
+source/animal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class.dir/build.make CMakeFiles/scope_class.dir/source/animal.cpp.o
+.PHONY : source/animal.cpp.o
+
+source/animal.i: source/animal.cpp.i
+.PHONY : source/animal.i
+
+# target to preprocess a source file
+source/animal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class.dir/build.make CMakeFiles/scope_class.dir/source/animal.cpp.i
+.PHONY : source/animal.cpp.i
+
+source/animal.s: source/animal.cpp.s
+.PHONY : source/animal.s
+
+# target to generate assembly for a file
+source/animal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class.dir/build.make CMakeFiles/scope_class.dir/source/animal.cpp.s
+.PHONY : source/animal.cpp.s
 
 source/main.o: source/main.cpp.o
 .PHONY : source/main.o
 
 # target to build an object file
 source/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Age_Class.dir/build.make CMakeFiles/Age_Class.dir/source/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class.dir/build.make CMakeFiles/scope_class.dir/source/main.cpp.o
 .PHONY : source/main.cpp.o
 
 source/main.i: source/main.cpp.i
@@ -237,7 +261,7 @@ source/main.i: source/main.cpp.i
 
 # target to preprocess a source file
 source/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Age_Class.dir/build.make CMakeFiles/Age_Class.dir/source/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class.dir/build.make CMakeFiles/scope_class.dir/source/main.cpp.i
 .PHONY : source/main.cpp.i
 
 source/main.s: source/main.cpp.s
@@ -245,7 +269,7 @@ source/main.s: source/main.cpp.s
 
 # target to generate assembly for a file
 source/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Age_Class.dir/build.make CMakeFiles/Age_Class.dir/source/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scope_class.dir/build.make CMakeFiles/scope_class.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
 # Help Target
@@ -260,12 +284,15 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... Age_Class_autogen"
-	@echo "... Age_Class_autogen_timestamp_deps"
-	@echo "... Age_Class"
-	@echo "... Age_Class_autogen/mocs_compilation.o"
-	@echo "... Age_Class_autogen/mocs_compilation.i"
-	@echo "... Age_Class_autogen/mocs_compilation.s"
+	@echo "... scope_class_autogen"
+	@echo "... scope_class_autogen_timestamp_deps"
+	@echo "... scope_class"
+	@echo "... scope_class_autogen/mocs_compilation.o"
+	@echo "... scope_class_autogen/mocs_compilation.i"
+	@echo "... scope_class_autogen/mocs_compilation.s"
+	@echo "... source/animal.o"
+	@echo "... source/animal.i"
+	@echo "... source/animal.s"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"

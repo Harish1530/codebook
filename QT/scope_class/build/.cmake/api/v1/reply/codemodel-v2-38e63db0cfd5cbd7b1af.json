@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-b1bcdcdf644ca9d4d85c.json",
+					"jsonFile" : "directory-.-Debug-9058d542d3c50b74d2d0.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -43,23 +43,23 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Age_Class::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Age_Class-Debug-d2f84b3e6fc30d5b48e0.json",
-					"name" : "Age_Class",
+					"id" : "scope_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scope_class-Debug-4af8e4c4ba5d8404627c.json",
+					"name" : "scope_class",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Age_Class_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Age_Class_autogen-Debug-ff5ed411b1c881b936cb.json",
-					"name" : "Age_Class_autogen",
+					"id" : "scope_class_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scope_class_autogen-Debug-1e67ec6540e4046f7320.json",
+					"name" : "scope_class_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Age_Class_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Age_Class_autogen_timestamp_deps-Debug-0addb790e9da8922517d.json",
-					"name" : "Age_Class_autogen_timestamp_deps",
+					"id" : "scope_class_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scope_class_autogen_timestamp_deps-Debug-8951677492a2e95c7438.json",
+					"name" : "scope_class_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
 			]

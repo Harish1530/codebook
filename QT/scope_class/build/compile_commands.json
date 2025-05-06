@@ -1,14 +1,20 @@
 [
 {
   "directory": "/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/Age_Class_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/scope_class/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/Age_Class_autogen/mocs_compilation.cpp",
-  "file": "/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/Age_Class_autogen/mocs_compilation.cpp",
-  "output": "CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.o"
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/scope_class_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/scope_class/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/scope_class.dir/scope_class_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/scope_class_autogen/mocs_compilation.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/scope_class_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/scope_class.dir/scope_class_autogen/mocs_compilation.cpp.o"
 },
 {
   "directory": "/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/Age_Class_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/scope_class/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/Age_Class.dir/source/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/scope_class/source/main.cpp",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/scope_class_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/scope_class/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/scope_class.dir/source/animal.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/scope_class/source/animal.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/scope_class/source/animal.cpp",
+  "output": "CMakeFiles/scope_class.dir/source/animal.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/scope_class/build/scope_class_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/scope_class/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/scope_class.dir/source/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/scope_class/source/main.cpp",
   "file": "/home/harish-1530/Git_Checkout/codebook/QT/scope_class/source/main.cpp",
-  "output": "CMakeFiles/Age_Class.dir/source/main.cpp.o"
+  "output": "CMakeFiles/scope_class.dir/source/main.cpp.o"
 }
 ]

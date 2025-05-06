@@ -30,9 +30,9 @@
 			"destination" : "bin",
 			"paths" : 
 			[
-				"Age_Class"
+				"scope_class"
 			],
-			"targetId" : "Age_Class::@6890427a1f51a3e7e1df",
+			"targetId" : "scope_class::@6890427a1f51a3e7e1df",
 			"targetIndex" : 0,
 			"type" : "target"
 		}

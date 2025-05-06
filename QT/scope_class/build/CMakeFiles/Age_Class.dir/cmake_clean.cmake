@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "Age_Class_autogen/timestamp"
   "CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/Age_Class.dir/source/animal.cpp.o"
+  "CMakeFiles/Age_Class.dir/source/animal.cpp.o.d"
   "CMakeFiles/Age_Class.dir/source/main.cpp.o"
   "CMakeFiles/Age_Class.dir/source/main.cpp.o.d"
 )
