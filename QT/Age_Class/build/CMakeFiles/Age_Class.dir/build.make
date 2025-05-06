@@ -89,24 +89,10 @@ CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build/Age_Class_autogen/mocs_compilation.cpp -o CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/Age_Class.dir/source/main.cpp.o: CMakeFiles/Age_Class.dir/flags.make
-CMakeFiles/Age_Class.dir/source/main.cpp.o: /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/main.cpp
-CMakeFiles/Age_Class.dir/source/main.cpp.o: CMakeFiles/Age_Class.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Age_Class.dir/source/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Age_Class.dir/source/main.cpp.o -MF CMakeFiles/Age_Class.dir/source/main.cpp.o.d -o CMakeFiles/Age_Class.dir/source/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/main.cpp
-
-CMakeFiles/Age_Class.dir/source/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Age_Class.dir/source/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/main.cpp > CMakeFiles/Age_Class.dir/source/main.cpp.i
-
-CMakeFiles/Age_Class.dir/source/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Age_Class.dir/source/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/main.cpp -o CMakeFiles/Age_Class.dir/source/main.cpp.s
-
 CMakeFiles/Age_Class.dir/source/agecalc.cpp.o: CMakeFiles/Age_Class.dir/flags.make
 CMakeFiles/Age_Class.dir/source/agecalc.cpp.o: /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/agecalc.cpp
 CMakeFiles/Age_Class.dir/source/agecalc.cpp.o: CMakeFiles/Age_Class.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Age_Class.dir/source/agecalc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Age_Class.dir/source/agecalc.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Age_Class.dir/source/agecalc.cpp.o -MF CMakeFiles/Age_Class.dir/source/agecalc.cpp.o.d -o CMakeFiles/Age_Class.dir/source/agecalc.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/agecalc.cpp
 
 CMakeFiles/Age_Class.dir/source/agecalc.cpp.i: cmake_force
@@ -117,18 +103,32 @@ CMakeFiles/Age_Class.dir/source/agecalc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Age_Class.dir/source/agecalc.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/agecalc.cpp -o CMakeFiles/Age_Class.dir/source/agecalc.cpp.s
 
+CMakeFiles/Age_Class.dir/source/main.cpp.o: CMakeFiles/Age_Class.dir/flags.make
+CMakeFiles/Age_Class.dir/source/main.cpp.o: /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/main.cpp
+CMakeFiles/Age_Class.dir/source/main.cpp.o: CMakeFiles/Age_Class.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/Age_Class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Age_Class.dir/source/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Age_Class.dir/source/main.cpp.o -MF CMakeFiles/Age_Class.dir/source/main.cpp.o.d -o CMakeFiles/Age_Class.dir/source/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/main.cpp
+
+CMakeFiles/Age_Class.dir/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Age_Class.dir/source/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/main.cpp > CMakeFiles/Age_Class.dir/source/main.cpp.i
+
+CMakeFiles/Age_Class.dir/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Age_Class.dir/source/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/Age_Class/source/main.cpp -o CMakeFiles/Age_Class.dir/source/main.cpp.s
+
 # Object files for target Age_Class
 Age_Class_OBJECTS = \
 "CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/Age_Class.dir/source/main.cpp.o" \
-"CMakeFiles/Age_Class.dir/source/agecalc.cpp.o"
+"CMakeFiles/Age_Class.dir/source/agecalc.cpp.o" \
+"CMakeFiles/Age_Class.dir/source/main.cpp.o"
 
 # External object files for target Age_Class
 Age_Class_EXTERNAL_OBJECTS =
 
 Age_Class: CMakeFiles/Age_Class.dir/Age_Class_autogen/mocs_compilation.cpp.o
-Age_Class: CMakeFiles/Age_Class.dir/source/main.cpp.o
 Age_Class: CMakeFiles/Age_Class.dir/source/agecalc.cpp.o
+Age_Class: CMakeFiles/Age_Class.dir/source/main.cpp.o
 Age_Class: CMakeFiles/Age_Class.dir/build.make
 Age_Class: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 Age_Class: CMakeFiles/Age_Class.dir/link.txt
