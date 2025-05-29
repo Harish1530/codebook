@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/signal/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/signal/build/signal_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/signal/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/signal.dir/signal_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/signal/build/signal_autogen/mocs_compilation.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/signal/build/signal_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/signal.dir/signal_autogen/mocs_compilation.cpp.o"
+}
+]

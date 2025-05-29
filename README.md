@@ -21,4 +21,6 @@
  * Made new class project
  * Creating New project for scope
  
- 
+# 29/5/2025
+ * Added 2 new projects - 1. pointer management
+ 2. Signals & Slots
