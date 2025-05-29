@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ffb35a47099db77651cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qtclass2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "qObject_calc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qObject_calc-Debug-e29314b110697f2fec61.json",
+					"name" : "qObject_calc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qObject_calc_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qObject_calc_autogen-Debug-af66f2d2e61eefda1ece.json",
+					"name" : "qObject_calc_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qObject_calc_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qObject_calc_autogen_timestamp_deps-Debug-e32e5a7fccd9c48f21a5.json",
+					"name" : "qObject_calc_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/build",
+		"source" : "/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

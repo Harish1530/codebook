@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/build/qObject_calc_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qObject_calc.dir/qObject_calc_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/build/qObject_calc_autogen/mocs_compilation.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/build/qObject_calc_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/qObject_calc.dir/qObject_calc_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/build/qObject_calc_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qObject_calc.dir/source/calc.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/source/calc.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/source/calc.cpp",
+  "output": "CMakeFiles/qObject_calc.dir/source/calc.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/build/qObject_calc_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qObject_calc.dir/source/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/source/main.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/qObject_calc/source/main.cpp",
+  "output": "CMakeFiles/qObject_calc.dir/source/main.cpp.o"
+}
+]

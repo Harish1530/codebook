@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/qObject_calc.dir/qObject_calc_autogen/mocs_compilation.cpp.o CMakeFiles/qObject_calc.dir/source/calc.cpp.o CMakeFiles/qObject_calc.dir/source/main.cpp.o -o qObject_calc  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 
