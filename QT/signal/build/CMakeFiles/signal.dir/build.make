@@ -89,18 +89,66 @@ CMakeFiles/signal.dir/signal_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/signal.dir/signal_autogen/mocs_compilation.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/signal/build/signal_autogen/mocs_compilation.cpp -o CMakeFiles/signal.dir/signal_autogen/mocs_compilation.cpp.s
 
+CMakeFiles/signal.dir/source/destination.cpp.o: CMakeFiles/signal.dir/flags.make
+CMakeFiles/signal.dir/source/destination.cpp.o: /home/harish-1530/Git_Checkout/codebook/QT/signal/source/destination.cpp
+CMakeFiles/signal.dir/source/destination.cpp.o: CMakeFiles/signal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/signal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/signal.dir/source/destination.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/signal.dir/source/destination.cpp.o -MF CMakeFiles/signal.dir/source/destination.cpp.o.d -o CMakeFiles/signal.dir/source/destination.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/signal/source/destination.cpp
+
+CMakeFiles/signal.dir/source/destination.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/signal.dir/source/destination.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harish-1530/Git_Checkout/codebook/QT/signal/source/destination.cpp > CMakeFiles/signal.dir/source/destination.cpp.i
+
+CMakeFiles/signal.dir/source/destination.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/signal.dir/source/destination.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/signal/source/destination.cpp -o CMakeFiles/signal.dir/source/destination.cpp.s
+
+CMakeFiles/signal.dir/source/main.cpp.o: CMakeFiles/signal.dir/flags.make
+CMakeFiles/signal.dir/source/main.cpp.o: /home/harish-1530/Git_Checkout/codebook/QT/signal/source/main.cpp
+CMakeFiles/signal.dir/source/main.cpp.o: CMakeFiles/signal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/signal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/signal.dir/source/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/signal.dir/source/main.cpp.o -MF CMakeFiles/signal.dir/source/main.cpp.o.d -o CMakeFiles/signal.dir/source/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/signal/source/main.cpp
+
+CMakeFiles/signal.dir/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/signal.dir/source/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harish-1530/Git_Checkout/codebook/QT/signal/source/main.cpp > CMakeFiles/signal.dir/source/main.cpp.i
+
+CMakeFiles/signal.dir/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/signal.dir/source/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/signal/source/main.cpp -o CMakeFiles/signal.dir/source/main.cpp.s
+
+CMakeFiles/signal.dir/source/source.cpp.o: CMakeFiles/signal.dir/flags.make
+CMakeFiles/signal.dir/source/source.cpp.o: /home/harish-1530/Git_Checkout/codebook/QT/signal/source/source.cpp
+CMakeFiles/signal.dir/source/source.cpp.o: CMakeFiles/signal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/signal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/signal.dir/source/source.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/signal.dir/source/source.cpp.o -MF CMakeFiles/signal.dir/source/source.cpp.o.d -o CMakeFiles/signal.dir/source/source.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/signal/source/source.cpp
+
+CMakeFiles/signal.dir/source/source.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/signal.dir/source/source.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harish-1530/Git_Checkout/codebook/QT/signal/source/source.cpp > CMakeFiles/signal.dir/source/source.cpp.i
+
+CMakeFiles/signal.dir/source/source.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/signal.dir/source/source.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harish-1530/Git_Checkout/codebook/QT/signal/source/source.cpp -o CMakeFiles/signal.dir/source/source.cpp.s
+
 # Object files for target signal
 signal_OBJECTS = \
-"CMakeFiles/signal.dir/signal_autogen/mocs_compilation.cpp.o"
+"CMakeFiles/signal.dir/signal_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/signal.dir/source/destination.cpp.o" \
+"CMakeFiles/signal.dir/source/main.cpp.o" \
+"CMakeFiles/signal.dir/source/source.cpp.o"
 
 # External object files for target signal
 signal_EXTERNAL_OBJECTS =
 
 signal: CMakeFiles/signal.dir/signal_autogen/mocs_compilation.cpp.o
+signal: CMakeFiles/signal.dir/source/destination.cpp.o
+signal: CMakeFiles/signal.dir/source/main.cpp.o
+signal: CMakeFiles/signal.dir/source/source.cpp.o
 signal: CMakeFiles/signal.dir/build.make
 signal: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 signal: CMakeFiles/signal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/signal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable signal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/harish-1530/Git_Checkout/codebook/QT/signal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable signal"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/signal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

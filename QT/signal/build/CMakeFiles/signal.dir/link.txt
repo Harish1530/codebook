@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/signal.dir/signal_autogen/mocs_compilation.cpp.o -o signal  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 
+/usr/bin/g++ -g CMakeFiles/signal.dir/signal_autogen/mocs_compilation.cpp.o CMakeFiles/signal.dir/source/destination.cpp.o CMakeFiles/signal.dir/source/main.cpp.o CMakeFiles/signal.dir/source/source.cpp.o -o signal  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 

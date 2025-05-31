@@ -224,6 +224,78 @@ signal_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/signal_autogen/mocs_compilation.cpp.s
 .PHONY : signal_autogen/mocs_compilation.cpp.s
 
+source/destination.o: source/destination.cpp.o
+.PHONY : source/destination.o
+
+# target to build an object file
+source/destination.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/source/destination.cpp.o
+.PHONY : source/destination.cpp.o
+
+source/destination.i: source/destination.cpp.i
+.PHONY : source/destination.i
+
+# target to preprocess a source file
+source/destination.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/source/destination.cpp.i
+.PHONY : source/destination.cpp.i
+
+source/destination.s: source/destination.cpp.s
+.PHONY : source/destination.s
+
+# target to generate assembly for a file
+source/destination.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/source/destination.cpp.s
+.PHONY : source/destination.cpp.s
+
+source/main.o: source/main.cpp.o
+.PHONY : source/main.o
+
+# target to build an object file
+source/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/source/main.cpp.o
+.PHONY : source/main.cpp.o
+
+source/main.i: source/main.cpp.i
+.PHONY : source/main.i
+
+# target to preprocess a source file
+source/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/source/main.cpp.i
+.PHONY : source/main.cpp.i
+
+source/main.s: source/main.cpp.s
+.PHONY : source/main.s
+
+# target to generate assembly for a file
+source/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/source/main.cpp.s
+.PHONY : source/main.cpp.s
+
+source/source.o: source/source.cpp.o
+.PHONY : source/source.o
+
+# target to build an object file
+source/source.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/source/source.cpp.o
+.PHONY : source/source.cpp.o
+
+source/source.i: source/source.cpp.i
+.PHONY : source/source.i
+
+# target to preprocess a source file
+source/source.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/source/source.cpp.i
+.PHONY : source/source.cpp.i
+
+source/source.s: source/source.cpp.s
+.PHONY : source/source.s
+
+# target to generate assembly for a file
+source/source.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/source/source.cpp.s
+.PHONY : source/source.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -242,6 +314,15 @@ help:
 	@echo "... signal_autogen/mocs_compilation.o"
 	@echo "... signal_autogen/mocs_compilation.i"
 	@echo "... signal_autogen/mocs_compilation.s"
+	@echo "... source/destination.o"
+	@echo "... source/destination.i"
+	@echo "... source/destination.s"
+	@echo "... source/main.o"
+	@echo "... source/main.i"
+	@echo "... source/main.s"
+	@echo "... source/source.o"
+	@echo "... source/source.i"
+	@echo "... source/source.s"
 .PHONY : help
 
 

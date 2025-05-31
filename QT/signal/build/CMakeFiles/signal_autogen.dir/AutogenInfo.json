@@ -40,7 +40,21 @@
 	"CMAKE_SOURCE_DIR" : "/home/harish-1530/Git_Checkout/codebook/QT/signal",
 	"DEP_FILE" : "/home/harish-1530/Git_Checkout/codebook/QT/signal/build/signal_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "signal_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/harish-1530/Git_Checkout/codebook/QT/signal/include/destination.h",
+			"MU",
+			"6YEA5652QU/moc_destination.cpp",
+			null
+		],
+		[
+			"/home/harish-1530/Git_Checkout/codebook/QT/signal/include/source.h",
+			"MU",
+			"6YEA5652QU/moc_source.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/harish-1530/Git_Checkout/codebook/QT/signal/build/signal_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/harish-1530/Git_Checkout/codebook/QT/signal/build/signal_autogen/mocs_compilation.cpp",
@@ -89,7 +103,24 @@
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
 	"SETTINGS_FILE" : "/home/harish-1530/Git_Checkout/codebook/QT/signal/build/CMakeFiles/signal_autogen.dir/AutogenUsed.txt",
-	"SOURCES" : [],
+	"SOURCES" : 
+	[
+		[
+			"/home/harish-1530/Git_Checkout/codebook/QT/signal/source/destination.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/harish-1530/Git_Checkout/codebook/QT/signal/source/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/harish-1530/Git_Checkout/codebook/QT/signal/source/source.cpp",
+			"MU",
+			null
+		]
+	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : [],
