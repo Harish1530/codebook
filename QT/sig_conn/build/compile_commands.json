@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/build/dis_conn_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/dis_conn.dir/dis_conn_autogen/mocs_compilation.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/sig_conn/build/dis_conn_autogen/mocs_compilation.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/build/dis_conn_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/dis_conn.dir/dis_conn_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/build/dis_conn_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/dis_conn.dir/source/main.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/sig_conn/source/main.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/source/main.cpp",
+  "output": "CMakeFiles/dis_conn.dir/source/main.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/build/dis_conn_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/dis_conn.dir/source/monitor.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/sig_conn/source/monitor.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/source/monitor.cpp",
+  "output": "CMakeFiles/dis_conn.dir/source/monitor.cpp.o"
+},
+{
+  "directory": "/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -I/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/build/dis_conn_autogen/include -I/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/dis_conn.dir/source/test.cpp.o -c /home/harish-1530/Git_Checkout/codebook/QT/sig_conn/source/test.cpp",
+  "file": "/home/harish-1530/Git_Checkout/codebook/QT/sig_conn/source/test.cpp",
+  "output": "CMakeFiles/dis_conn.dir/source/test.cpp.o"
+}
+]

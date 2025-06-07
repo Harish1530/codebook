@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/dis_conn.dir/dis_conn_autogen/mocs_compilation.cpp.o CMakeFiles/dis_conn.dir/source/main.cpp.o CMakeFiles/dis_conn.dir/source/radio.cpp.o CMakeFiles/dis_conn.dir/source/station.cpp.o -o dis_conn  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 

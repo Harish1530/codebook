@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0f7868bad881061334c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qtclass2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_conn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_conn-Debug-51e95d5f9dde8a2e3442.json",
+					"name" : "dis_conn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_conn_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_conn_autogen-Debug-c3d071b96074cafeb1a5.json",
+					"name" : "dis_conn_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_conn_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_conn_autogen_timestamp_deps-Debug-34905ff3f59002233026.json",
+					"name" : "dis_conn_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/harish-1530/Git_Checkout/codebook/QT/dis_conn/build",
+		"source" : "/home/harish-1530/Git_Checkout/codebook/QT/dis_conn"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
