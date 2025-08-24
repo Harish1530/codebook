@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "FuelGauge",
+            "object": true,
+            "qualifiedClassName": "FuelGauge",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "level",
+                            "type": "float"
+                        }
+                    ],
+                    "name": "fuelLevelChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "fuelgauge.h",
+    "outputRevision": 68
+}

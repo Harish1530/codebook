@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "Speedometer",
+            "object": true,
+            "qualifiedClassName": "Speedometer",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "speed",
+                            "type": "float"
+                        }
+                    ],
+                    "name": "speedChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "speedometer.h",
+    "outputRevision": 68
+}

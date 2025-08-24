@@ -11,9 +11,9 @@ void CANSimulator::sendMessage(int id, float value) {
     // Here you would add the actual CAN message sending logic
 }
 
-float CANSimulator::receiveMessage() {
+float CANSimulator::receiveMessage(int id) {
     // Simulate receiving a CAN message
     float simulatedValue = 0.0; // Replace with actual logic to get a value
-    qDebug() << "Receiving CAN message with value:" << simulatedValue;
+    qDebug() << "Receiving CAN message with ID:" << id << "and value:" << simulatedValue;
     return simulatedValue;
 }

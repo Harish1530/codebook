@@ -1,11 +1,19 @@
 #ifndef SPEEDOMETER_H
 #define SPEEDOMETER_H
 
-class Speedometer {
+#include <QObject>
+#include <QDebug>
+
+class Speedometer: public QObject {
+    Q_OBJECT
 public:
-    Speedometer();
+    explicit Speedometer(QObject *parent = nullptr);
     void setSpeed(float speed);
     float getSpeed() const;
+    void updateDisplay(); // <-- Add this
+
+signals:
+    void speedChanged(float speed); // <-- Add this if you want to notify QML/UI
 
 private:
     float currentSpeed;

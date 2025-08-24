@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="/com/digitalinstrumentcluster/">
+    <file alias="src/qml/main.qml">/home/harish-1530/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/qml/main.qml</file>
+    <file alias="src/qml/FuelGauge.qml">/home/harish-1530/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/qml/FuelGauge.qml</file>
+    <file alias="src/qml/Speedometer.qml">/home/harish-1530/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/qml/Speedometer.qml</file>
+    <file alias="src/qml/RPMGauge.qml">/home/harish-1530/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/qml/RPMGauge.qml</file>
+    <file alias="src/qml/Indicators.qml">/home/harish-1530/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/qml/Indicators.qml</file>
+  </qresource>
+</RCC>
+

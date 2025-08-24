@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "RPMGauge",
+            "object": true,
+            "qualifiedClassName": "RPMGauge",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newRPM",
+                            "type": "float"
+                        }
+                    ],
+                    "name": "rpmChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "rpmgauge.h",
+    "outputRevision": 68
+}

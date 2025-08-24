@@ -1,17 +1,22 @@
 #include "speedometer.h"
 
-Speedometer::Speedometer() : speed(0.0f) {}
+Speedometer::Speedometer(QObject *parent)
+    : QObject(parent), currentSpeed(0.0f) {}
 
 void Speedometer::setSpeed(float newSpeed) {
-    speed = newSpeed;
-    updateDisplay();
+    if (currentSpeed != newSpeed) {
+        currentSpeed = newSpeed;
+        emit speedChanged(currentSpeed); // <-- Notify UI/QML
+        updateDisplay();
+    }
 }
 
 float Speedometer::getSpeed() const {
-    return speed;
+    return currentSpeed;
 }
 
 void Speedometer::updateDisplay() {
-    // Code to update the speedometer display
-    // This could involve emitting a signal or updating a QML property
+    // Example: Print to debug or update a UI element
+    qDebug() << "Speed updated to:" << currentSpeed;
+    // In a real app, you might update a QML property or emit a signal
 }

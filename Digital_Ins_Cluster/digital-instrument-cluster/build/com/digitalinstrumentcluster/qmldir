@@ -1,0 +1,8 @@
+module com.digitalinstrumentcluster
+typeinfo digital-instrument-cluster.qmltypes
+prefer :/com/digitalinstrumentcluster/
+FuelGauge 1.0 src/qml/FuelGauge.qml
+Speedometer 1.0 src/qml/Speedometer.qml
+RPMGauge 1.0 src/qml/RPMGauge.qml
+Indicators 1.0 src/qml/Indicators.qml
+

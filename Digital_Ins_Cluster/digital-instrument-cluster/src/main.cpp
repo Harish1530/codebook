@@ -1,7 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QtQml>
-#include "cansimulator.h"
+#include "can/cansimulator.h"
 #include "cluster/speedometer.h"
 #include "cluster/rpmgauge.h"
 #include "cluster/fuelgauge.h"
@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
     qmlRegisterType<Indicators>("com.digitalinstrumentcluster", 1, 0, "Indicators");
     qmlRegisterType<CANSimulator>("com.digitalinstrumentcluster", 1, 0, "CANSimulator");
 
-    engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
+    engine.load(QUrl(QStringLiteral("qrc:/com/digitalinstrumentcluster/src/qml/main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;
 

@@ -1,0 +1,56 @@
+{
+    "classes": [
+        {
+            "className": "Indicators",
+            "object": true,
+            "qualifiedClassName": "Indicators",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "left",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "right",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "turnIndicatorChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "active",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "lowFuelWarningChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "active",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "emergencyWarningLightsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "indicators.h",
+    "outputRevision": 68
+}

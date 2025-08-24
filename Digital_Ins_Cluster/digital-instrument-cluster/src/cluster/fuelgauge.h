@@ -1,11 +1,17 @@
 #ifndef FUELGAUGE_H
 #define FUELGAUGE_H
 
-class FuelGauge {
+#include <QObject>
+
+class FuelGauge : public QObject {
+    Q_OBJECT
 public:
-    FuelGauge();
+    explicit FuelGauge(QObject *parent = nullptr);
     void setFuelLevel(float level);
     float getFuelLevel() const;
+
+signals:
+    void fuelLevelChanged(float level);
 
 private:
     float fuelLevel;

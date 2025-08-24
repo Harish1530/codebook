@@ -1,16 +1,20 @@
 #include "indicators.h"
 
-Indicators::Indicators() : leftTurnIndicator(false), rightTurnIndicator(false), lowFuelWarning(false) {}
+Indicators::Indicators(QObject *parent): QObject(parent), 
+    leftTurnIndicator(false),
+    rightTurnIndicator(false),
+    lowFuelWarning(false),
+    emergencyWarningLights(false) {}
 
 void Indicators::setTurnIndicator(bool left, bool right) {
     leftTurnIndicator = left;
     rightTurnIndicator = right;
-    emit turnIndicatorChanged();
+    emit turnIndicatorChanged(left, right);
 }
 
 void Indicators::setLowFuelWarning(bool active) {
     lowFuelWarning = active;
-    emit lowFuelWarningChanged();
+    emit lowFuelWarningChanged(active);
 }
 
 bool Indicators::isLeftTurnIndicatorActive() const {
@@ -23,4 +27,8 @@ bool Indicators::isRightTurnIndicatorActive() const {
 
 bool Indicators::isLowFuelWarningActive() const {
     return lowFuelWarning;
+}
+
+bool Indicators::isEmergencyWarningLightsActive() const {
+    return emergencyWarningLights;
 }
