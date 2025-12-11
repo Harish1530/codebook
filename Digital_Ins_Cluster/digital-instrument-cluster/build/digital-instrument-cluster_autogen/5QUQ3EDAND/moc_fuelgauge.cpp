@@ -1,18 +1,24 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'fuelgauge.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.4.2)
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.9.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include <memory>
 #include "../../../src/cluster/fuelgauge.h"
 #include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'fuelgauge.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.4.2. It"
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.9.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -21,90 +27,58 @@
 #define Q_CONSTINIT
 #endif
 
-QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_stringdata_FuelGauge_t {
-    uint offsetsAndSizes[8];
-    char stringdata0[10];
-    char stringdata1[17];
-    char stringdata2[1];
-    char stringdata3[6];
-};
-#define QT_MOC_LITERAL(ofs, len) \
-    uint(sizeof(qt_meta_stringdata_FuelGauge_t::offsetsAndSizes) + ofs), len 
-Q_CONSTINIT static const qt_meta_stringdata_FuelGauge_t qt_meta_stringdata_FuelGauge = {
-    {
-        QT_MOC_LITERAL(0, 9),  // "FuelGauge"
-        QT_MOC_LITERAL(10, 16),  // "fuelLevelChanged"
-        QT_MOC_LITERAL(27, 0),  // ""
-        QT_MOC_LITERAL(28, 5)   // "level"
-    },
-    "FuelGauge",
-    "fuelLevelChanged",
-    "",
-    "level"
-};
-#undef QT_MOC_LITERAL
+struct qt_meta_tag_ZN9FuelGaugeE_t {};
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_FuelGauge[] = {
+template <> constexpr inline auto FuelGauge::qt_create_metaobjectdata<qt_meta_tag_ZN9FuelGaugeE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "FuelGauge",
+        "fuelLevelChanged",
+        "",
+        "level"
+    };
 
- // content:
-      10,       // revision
-       0,       // classname
-       0,    0, // classinfo
-       1,   14, // methods
-       0,    0, // properties
-       0,    0, // enums/sets
-       0,    0, // constructors
-       0,       // flags
-       1,       // signalCount
-
- // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   20,    2, 0x06,    1 /* Public */,
-
- // signals: parameters
-    QMetaType::Void, QMetaType::Float,    3,
-
-       0        // eod
-};
-
+    QtMocHelpers::UintData qt_methods {
+        // Signal 'fuelLevelChanged'
+        QtMocHelpers::SignalData<void(float)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Float, 3 },
+        }}),
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<FuelGauge, qt_meta_tag_ZN9FuelGaugeE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
 Q_CONSTINIT const QMetaObject FuelGauge::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_FuelGauge.offsetsAndSizes,
-    qt_meta_data_FuelGauge,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9FuelGaugeE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9FuelGaugeE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_FuelGauge_t,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<FuelGauge, std::true_type>,
-        // method 'fuelLevelChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<float, std::false_type>
-    >,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN9FuelGaugeE_t>.metaTypes,
     nullptr
 } };
 
 void FuelGauge::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
+    auto *_t = static_cast<FuelGauge *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<FuelGauge *>(_o);
-        (void)_t;
         switch (_id) {
         case 0: _t->fuelLevelChanged((*reinterpret_cast< std::add_pointer_t<float>>(_a[1]))); break;
         default: ;
         }
-    } else if (_c == QMetaObject::IndexOfMethod) {
-        int *result = reinterpret_cast<int *>(_a[0]);
-        {
-            using _t = void (FuelGauge::*)(float );
-            if (_t _q_method = &FuelGauge::fuelLevelChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 0;
-                return;
-            }
-        }
+    }
+    if (_c == QMetaObject::IndexOfMethod) {
+        if (QtMocHelpers::indexOfMethod<void (FuelGauge::*)(float )>(_a, &FuelGauge::fuelLevelChanged, 0))
+            return;
     }
 }
 
@@ -116,7 +90,7 @@ const QMetaObject *FuelGauge::metaObject() const
 void *FuelGauge::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_FuelGauge.stringdata0))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9FuelGaugeE_t>.strings))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
@@ -130,7 +104,8 @@ int FuelGauge::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 1)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 1;
-    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 1)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 1;
@@ -141,8 +116,6 @@ int FuelGauge::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void FuelGauge::fuelLevelChanged(float _t1)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+    QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
 }
 QT_WARNING_POP
-QT_END_MOC_NAMESPACE

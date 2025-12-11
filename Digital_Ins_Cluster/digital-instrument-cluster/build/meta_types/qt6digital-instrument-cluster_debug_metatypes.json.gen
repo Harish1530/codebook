@@ -1,0 +1,284 @@
+[
+    {
+        "classes": [
+            {
+                "className": "FuelGauge",
+                "lineNumber": 6,
+                "object": true,
+                "qualifiedClassName": "FuelGauge",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "level",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "fuelLevelChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "fuelgauge.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "Indicators",
+                "lineNumber": 6,
+                "object": true,
+                "qualifiedClassName": "Indicators",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "left",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "right",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "turnIndicatorChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "active",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "lowFuelWarningChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "active",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "emergencyWarningLightsChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "indicators.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "RPMGauge",
+                "lineNumber": 6,
+                "object": true,
+                "qualifiedClassName": "RPMGauge",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newRPM",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "rpmChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "rpmgauge.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "Speedometer",
+                "lineNumber": 7,
+                "object": true,
+                "qualifiedClassName": "Speedometer",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "speed",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "speedChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "speedometer.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "CANSimulator",
+                "lineNumber": 6,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "value",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "sendMessage",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "receiveMessage",
+                        "returnType": "float"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "CANSimulator",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cansimulator.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "MockCAN",
+                "lineNumber": 7,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "startMock",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "stopMock",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "MockCAN",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "speed",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "speedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "rpm",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "rpmChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "fuelLevel",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "fuelLevelChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 3,
+                        "name": "generateMockData",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "mockcan.h",
+        "outputRevision": 69
+    }
+]

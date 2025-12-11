@@ -1,3 +1,7 @@
+--resource
+D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.qt/rcc/qmake_com_digitalinstrumentcluster.qrc
+--resource
+D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.qt/rcc/digital-instrument-cluster_raw_qml_0.qrc
 /com/digitalinstrumentcluster/src/qml/main.qml
 /com/digitalinstrumentcluster/src/qml/FuelGauge.qml
 /com/digitalinstrumentcluster/src/qml/Speedometer.qml

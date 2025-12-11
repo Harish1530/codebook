@@ -2,14 +2,17 @@
     "classes": [
         {
             "className": "MockCAN",
+            "lineNumber": 7,
             "methods": [
                 {
                     "access": "public",
+                    "index": 4,
                     "name": "startMock",
                     "returnType": "void"
                 },
                 {
                     "access": "public",
+                    "index": 5,
                     "name": "stopMock",
                     "returnType": "void"
                 }
@@ -25,6 +28,7 @@
                             "type": "float"
                         }
                     ],
+                    "index": 0,
                     "name": "speedChanged",
                     "returnType": "void"
                 },
@@ -36,6 +40,7 @@
                             "type": "float"
                         }
                     ],
+                    "index": 1,
                     "name": "rpmChanged",
                     "returnType": "void"
                 },
@@ -47,6 +52,7 @@
                             "type": "float"
                         }
                     ],
+                    "index": 2,
                     "name": "fuelLevelChanged",
                     "returnType": "void"
                 }
@@ -54,6 +60,7 @@
             "slots": [
                 {
                     "access": "private",
+                    "index": 3,
                     "name": "generateMockData",
                     "returnType": "void"
                 }
@@ -67,5 +74,5 @@
         }
     ],
     "inputFile": "mockcan.h",
-    "outputRevision": 68
+    "outputRevision": 69
 }

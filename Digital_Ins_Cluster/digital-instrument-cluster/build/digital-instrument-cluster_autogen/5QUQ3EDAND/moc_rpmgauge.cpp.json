@@ -2,6 +2,7 @@
     "classes": [
         {
             "className": "RPMGauge",
+            "lineNumber": 6,
             "object": true,
             "qualifiedClassName": "RPMGauge",
             "signals": [
@@ -13,6 +14,7 @@
                             "type": "float"
                         }
                     ],
+                    "index": 0,
                     "name": "rpmChanged",
                     "returnType": "void"
                 }
@@ -26,5 +28,5 @@
         }
     ],
     "inputFile": "rpmgauge.h",
-    "outputRevision": 68
+    "outputRevision": 69
 }

@@ -2,6 +2,7 @@
     "classes": [
         {
             "className": "Indicators",
+            "lineNumber": 6,
             "object": true,
             "qualifiedClassName": "Indicators",
             "signals": [
@@ -17,6 +18,7 @@
                             "type": "bool"
                         }
                     ],
+                    "index": 0,
                     "name": "turnIndicatorChanged",
                     "returnType": "void"
                 },
@@ -28,6 +30,7 @@
                             "type": "bool"
                         }
                     ],
+                    "index": 1,
                     "name": "lowFuelWarningChanged",
                     "returnType": "void"
                 },
@@ -39,6 +42,7 @@
                             "type": "bool"
                         }
                     ],
+                    "index": 2,
                     "name": "emergencyWarningLightsChanged",
                     "returnType": "void"
                 }
@@ -52,5 +56,5 @@
         }
     ],
     "inputFile": "indicators.h",
-    "outputRevision": 68
+    "outputRevision": 69
 }

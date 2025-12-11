@@ -1,0 +1,14 @@
+--bare
+-I
+D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build
+-I
+C:/Qt/6.9.0/mingw_64/qml
+--resource
+D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.qt/rcc/qmake_com_digitalinstrumentcluster.qrc
+--resource
+D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.qt/rcc/digital-instrument-cluster_raw_qml_0.qrc
+D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/qml/main.qml
+D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/qml/FuelGauge.qml
+D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/qml/Speedometer.qml
+D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/qml/RPMGauge.qml
+D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/qml/Indicators.qml

@@ -2,6 +2,7 @@
     "classes": [
         {
             "className": "CANSimulator",
+            "lineNumber": 6,
             "methods": [
                 {
                     "access": "public",
@@ -15,6 +16,7 @@
                             "type": "float"
                         }
                     ],
+                    "index": 0,
                     "name": "sendMessage",
                     "returnType": "void"
                 },
@@ -26,6 +28,7 @@
                             "type": "int"
                         }
                     ],
+                    "index": 1,
                     "name": "receiveMessage",
                     "returnType": "float"
                 }
@@ -41,5 +44,5 @@
         }
     ],
     "inputFile": "cansimulator.h",
-    "outputRevision": 68
+    "outputRevision": 69
 }

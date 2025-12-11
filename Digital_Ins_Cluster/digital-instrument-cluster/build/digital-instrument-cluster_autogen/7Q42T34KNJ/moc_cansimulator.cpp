@@ -1,18 +1,24 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'cansimulator.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.4.2)
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.9.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include <memory>
 #include "../../../src/can/cansimulator.h"
 #include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'cansimulator.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.4.2. It"
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.9.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -21,89 +27,56 @@
 #define Q_CONSTINIT
 #endif
 
-QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_stringdata_CANSimulator_t {
-    uint offsetsAndSizes[12];
-    char stringdata0[13];
-    char stringdata1[12];
-    char stringdata2[1];
-    char stringdata3[3];
-    char stringdata4[6];
-    char stringdata5[15];
-};
-#define QT_MOC_LITERAL(ofs, len) \
-    uint(sizeof(qt_meta_stringdata_CANSimulator_t::offsetsAndSizes) + ofs), len 
-Q_CONSTINIT static const qt_meta_stringdata_CANSimulator_t qt_meta_stringdata_CANSimulator = {
-    {
-        QT_MOC_LITERAL(0, 12),  // "CANSimulator"
-        QT_MOC_LITERAL(13, 11),  // "sendMessage"
-        QT_MOC_LITERAL(25, 0),  // ""
-        QT_MOC_LITERAL(26, 2),  // "id"
-        QT_MOC_LITERAL(29, 5),  // "value"
-        QT_MOC_LITERAL(35, 14)   // "receiveMessage"
-    },
-    "CANSimulator",
-    "sendMessage",
-    "",
-    "id",
-    "value",
-    "receiveMessage"
-};
-#undef QT_MOC_LITERAL
+struct qt_meta_tag_ZN12CANSimulatorE_t {};
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_CANSimulator[] = {
+template <> constexpr inline auto CANSimulator::qt_create_metaobjectdata<qt_meta_tag_ZN12CANSimulatorE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "CANSimulator",
+        "sendMessage",
+        "",
+        "id",
+        "value",
+        "receiveMessage"
+    };
 
- // content:
-      10,       // revision
-       0,       // classname
-       0,    0, // classinfo
-       2,   14, // methods
-       0,    0, // properties
-       0,    0, // enums/sets
-       0,    0, // constructors
-       0,       // flags
-       0,       // signalCount
-
- // methods: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    2,   26,    2, 0x02,    1 /* Public */,
-       5,    1,   31,    2, 0x02,    4 /* Public */,
-
- // methods: parameters
-    QMetaType::Void, QMetaType::Int, QMetaType::Float,    3,    4,
-    QMetaType::Float, QMetaType::Int,    3,
-
-       0        // eod
-};
-
+    QtMocHelpers::UintData qt_methods {
+        // Method 'sendMessage'
+        QtMocHelpers::MethodData<void(int, float)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 3 }, { QMetaType::Float, 4 },
+        }}),
+        // Method 'receiveMessage'
+        QtMocHelpers::MethodData<float(int)>(5, 2, QMC::AccessPublic, QMetaType::Float, {{
+            { QMetaType::Int, 3 },
+        }}),
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<CANSimulator, qt_meta_tag_ZN12CANSimulatorE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
 Q_CONSTINIT const QMetaObject CANSimulator::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_CANSimulator.offsetsAndSizes,
-    qt_meta_data_CANSimulator,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN12CANSimulatorE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN12CANSimulatorE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CANSimulator_t,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<CANSimulator, std::true_type>,
-        // method 'sendMessage'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<float, std::false_type>,
-        // method 'receiveMessage'
-        QtPrivate::TypeAndForceComplete<float, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>
-    >,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN12CANSimulatorE_t>.metaTypes,
     nullptr
 } };
 
 void CANSimulator::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
+    auto *_t = static_cast<CANSimulator *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<CANSimulator *>(_o);
-        (void)_t;
         switch (_id) {
         case 0: _t->sendMessage((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<float>>(_a[2]))); break;
         case 1: { float _r = _t->receiveMessage((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])));
@@ -121,7 +94,7 @@ const QMetaObject *CANSimulator::metaObject() const
 void *CANSimulator::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CANSimulator.stringdata0))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN12CANSimulatorE_t>.strings))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
@@ -135,7 +108,8 @@ int CANSimulator::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 2;
-    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 2)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 2;
@@ -143,4 +117,3 @@ int CANSimulator::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     return _id;
 }
 QT_WARNING_POP
-QT_END_MOC_NAMESPACE

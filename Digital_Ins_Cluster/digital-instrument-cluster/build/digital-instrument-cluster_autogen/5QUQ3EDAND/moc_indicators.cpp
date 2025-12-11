@@ -1,18 +1,24 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'indicators.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.4.2)
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.9.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include <memory>
 #include "../../../src/cluster/indicators.h"
 #include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'indicators.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.4.2. It"
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.9.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -21,129 +27,76 @@
 #define Q_CONSTINIT
 #endif
 
-QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_stringdata_Indicators_t {
-    uint offsetsAndSizes[16];
-    char stringdata0[11];
-    char stringdata1[21];
-    char stringdata2[1];
-    char stringdata3[5];
-    char stringdata4[6];
-    char stringdata5[22];
-    char stringdata6[7];
-    char stringdata7[30];
-};
-#define QT_MOC_LITERAL(ofs, len) \
-    uint(sizeof(qt_meta_stringdata_Indicators_t::offsetsAndSizes) + ofs), len 
-Q_CONSTINIT static const qt_meta_stringdata_Indicators_t qt_meta_stringdata_Indicators = {
-    {
-        QT_MOC_LITERAL(0, 10),  // "Indicators"
-        QT_MOC_LITERAL(11, 20),  // "turnIndicatorChanged"
-        QT_MOC_LITERAL(32, 0),  // ""
-        QT_MOC_LITERAL(33, 4),  // "left"
-        QT_MOC_LITERAL(38, 5),  // "right"
-        QT_MOC_LITERAL(44, 21),  // "lowFuelWarningChanged"
-        QT_MOC_LITERAL(66, 6),  // "active"
-        QT_MOC_LITERAL(73, 29)   // "emergencyWarningLightsChanged"
-    },
-    "Indicators",
-    "turnIndicatorChanged",
-    "",
-    "left",
-    "right",
-    "lowFuelWarningChanged",
-    "active",
-    "emergencyWarningLightsChanged"
-};
-#undef QT_MOC_LITERAL
+struct qt_meta_tag_ZN10IndicatorsE_t {};
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_Indicators[] = {
+template <> constexpr inline auto Indicators::qt_create_metaobjectdata<qt_meta_tag_ZN10IndicatorsE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "Indicators",
+        "turnIndicatorChanged",
+        "",
+        "left",
+        "right",
+        "lowFuelWarningChanged",
+        "active",
+        "emergencyWarningLightsChanged"
+    };
 
- // content:
-      10,       // revision
-       0,       // classname
-       0,    0, // classinfo
-       3,   14, // methods
-       0,    0, // properties
-       0,    0, // enums/sets
-       0,    0, // constructors
-       0,       // flags
-       3,       // signalCount
-
- // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    2,   32,    2, 0x06,    1 /* Public */,
-       5,    1,   37,    2, 0x06,    4 /* Public */,
-       7,    1,   40,    2, 0x06,    6 /* Public */,
-
- // signals: parameters
-    QMetaType::Void, QMetaType::Bool, QMetaType::Bool,    3,    4,
-    QMetaType::Void, QMetaType::Bool,    6,
-    QMetaType::Void, QMetaType::Bool,    6,
-
-       0        // eod
-};
-
+    QtMocHelpers::UintData qt_methods {
+        // Signal 'turnIndicatorChanged'
+        QtMocHelpers::SignalData<void(bool, bool)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Bool, 3 }, { QMetaType::Bool, 4 },
+        }}),
+        // Signal 'lowFuelWarningChanged'
+        QtMocHelpers::SignalData<void(bool)>(5, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Bool, 6 },
+        }}),
+        // Signal 'emergencyWarningLightsChanged'
+        QtMocHelpers::SignalData<void(bool)>(7, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Bool, 6 },
+        }}),
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<Indicators, qt_meta_tag_ZN10IndicatorsE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
 Q_CONSTINIT const QMetaObject Indicators::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_Indicators.offsetsAndSizes,
-    qt_meta_data_Indicators,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN10IndicatorsE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN10IndicatorsE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_Indicators_t,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<Indicators, std::true_type>,
-        // method 'turnIndicatorChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'lowFuelWarningChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'emergencyWarningLightsChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>
-    >,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN10IndicatorsE_t>.metaTypes,
     nullptr
 } };
 
 void Indicators::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
+    auto *_t = static_cast<Indicators *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<Indicators *>(_o);
-        (void)_t;
         switch (_id) {
         case 0: _t->turnIndicatorChanged((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<bool>>(_a[2]))); break;
         case 1: _t->lowFuelWarningChanged((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
         case 2: _t->emergencyWarningLightsChanged((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
         default: ;
         }
-    } else if (_c == QMetaObject::IndexOfMethod) {
-        int *result = reinterpret_cast<int *>(_a[0]);
-        {
-            using _t = void (Indicators::*)(bool , bool );
-            if (_t _q_method = &Indicators::turnIndicatorChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 0;
-                return;
-            }
-        }
-        {
-            using _t = void (Indicators::*)(bool );
-            if (_t _q_method = &Indicators::lowFuelWarningChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 1;
-                return;
-            }
-        }
-        {
-            using _t = void (Indicators::*)(bool );
-            if (_t _q_method = &Indicators::emergencyWarningLightsChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 2;
-                return;
-            }
-        }
+    }
+    if (_c == QMetaObject::IndexOfMethod) {
+        if (QtMocHelpers::indexOfMethod<void (Indicators::*)(bool , bool )>(_a, &Indicators::turnIndicatorChanged, 0))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (Indicators::*)(bool )>(_a, &Indicators::lowFuelWarningChanged, 1))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (Indicators::*)(bool )>(_a, &Indicators::emergencyWarningLightsChanged, 2))
+            return;
     }
 }
 
@@ -155,7 +108,7 @@ const QMetaObject *Indicators::metaObject() const
 void *Indicators::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_Indicators.stringdata0))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN10IndicatorsE_t>.strings))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
@@ -169,7 +122,8 @@ int Indicators::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 3;
-    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 3;
@@ -180,22 +134,18 @@ int Indicators::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void Indicators::turnIndicatorChanged(bool _t1, bool _t2)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
-    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+    QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1, _t2);
 }
 
 // SIGNAL 1
 void Indicators::lowFuelWarningChanged(bool _t1)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+    QMetaObject::activate<void>(this, &staticMetaObject, 1, nullptr, _t1);
 }
 
 // SIGNAL 2
 void Indicators::emergencyWarningLightsChanged(bool _t1)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+    QMetaObject::activate<void>(this, &staticMetaObject, 2, nullptr, _t1);
 }
 QT_WARNING_POP
-QT_END_MOC_NAMESPACE

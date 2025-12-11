@@ -1,0 +1,104 @@
+[
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\digital-instrument-cluster_autogen\\mocs_compilation.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\build\\digital-instrument-cluster_autogen\\mocs_compilation.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/digital-instrument-cluster_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/digital-instrument-cluster_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\src\\can\\cansimulator.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\src\\can\\cansimulator.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/can/cansimulator.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/src/can/cansimulator.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\src\\can\\mockcan.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\src\\can\\mockcan.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/can/mockcan.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/src/can/mockcan.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\src\\cluster\\fuelgauge.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\src\\cluster\\fuelgauge.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/cluster/fuelgauge.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/src/cluster/fuelgauge.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\src\\cluster\\indicators.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\src\\cluster\\indicators.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/cluster/indicators.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/src/cluster/indicators.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\src\\cluster\\rpmgauge.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\src\\cluster\\rpmgauge.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/cluster/rpmgauge.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/src/cluster/rpmgauge.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\src\\cluster\\speedometer.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\src\\cluster\\speedometer.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/cluster/speedometer.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/src/cluster/speedometer.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\src\\main.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\src\\main.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/main.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\digital-instrument-cluster.dir\\digital-instrument-cluster_qmltyperegistrations.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\build\\digital-instrument-cluster_qmltyperegistrations.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/digital-instrument-cluster_qmltyperegistrations.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/digital-instrument-cluster_qmltyperegistrations.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\build\\.qt\\rcc\\qrc_qmake_com_digitalinstrumentcluster.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\build\\.qt\\rcc\\qrc_qmake_com_digitalinstrumentcluster.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.qt/rcc/qrc_qmake_com_digitalinstrumentcluster.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/build/.qt/rcc/qrc_qmake_com_digitalinstrumentcluster.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\build\\.rcc\\qmlcache\\digital-instrument-cluster_qmlcache_loader.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\build\\.rcc\\qmlcache\\digital-instrument-cluster_qmlcache_loader.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.rcc/qmlcache/digital-instrument-cluster_qmlcache_loader.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/build/.rcc/qmlcache/digital-instrument-cluster_qmlcache_loader.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\build\\.rcc\\qmlcache\\digital-instrument-cluster_src\\qml\\main_qml.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\build\\.rcc\\qmlcache\\digital-instrument-cluster_src\\qml\\main_qml.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.rcc/qmlcache/digital-instrument-cluster_src/qml/main_qml.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/build/.rcc/qmlcache/digital-instrument-cluster_src/qml/main_qml.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\build\\.rcc\\qmlcache\\digital-instrument-cluster_src\\qml\\FuelGauge_qml.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\build\\.rcc\\qmlcache\\digital-instrument-cluster_src\\qml\\FuelGauge_qml.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.rcc/qmlcache/digital-instrument-cluster_src/qml/FuelGauge_qml.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/build/.rcc/qmlcache/digital-instrument-cluster_src/qml/FuelGauge_qml.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\build\\.rcc\\qmlcache\\digital-instrument-cluster_src\\qml\\Speedometer_qml.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\build\\.rcc\\qmlcache\\digital-instrument-cluster_src\\qml\\Speedometer_qml.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.rcc/qmlcache/digital-instrument-cluster_src/qml/Speedometer_qml.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/build/.rcc/qmlcache/digital-instrument-cluster_src/qml/Speedometer_qml.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\build\\.rcc\\qmlcache\\digital-instrument-cluster_src\\qml\\RPMGauge_qml.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\build\\.rcc\\qmlcache\\digital-instrument-cluster_src\\qml\\RPMGauge_qml.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.rcc/qmlcache/digital-instrument-cluster_src/qml/RPMGauge_qml.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/build/.rcc/qmlcache/digital-instrument-cluster_src/qml/RPMGauge_qml.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\build\\.rcc\\qmlcache\\digital-instrument-cluster_src\\qml\\Indicators_qml.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\build\\.rcc\\qmlcache\\digital-instrument-cluster_src\\qml\\Indicators_qml.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.rcc/qmlcache/digital-instrument-cluster_src/qml/Indicators_qml.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/build/.rcc/qmlcache/digital-instrument-cluster_src/qml/Indicators_qml.cpp.obj"
+},
+{
+  "directory": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/digital-instrument-cluster.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\digital-instrument-cluster.dir\\build\\.qt\\rcc\\qrc_digital-instrument-cluster_raw_qml_0.cpp.obj -c D:\\Git_Checkout\\Git_Checkout\\codebook\\Digital_Ins_Cluster\\digital-instrument-cluster\\build\\.qt\\rcc\\qrc_digital-instrument-cluster_raw_qml_0.cpp",
+  "file": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/.qt/rcc/qrc_digital-instrument-cluster_raw_qml_0.cpp",
+  "output": "CMakeFiles/digital-instrument-cluster.dir/build/.qt/rcc/qrc_digital-instrument-cluster_raw_qml_0.cpp.obj"
+}
+]

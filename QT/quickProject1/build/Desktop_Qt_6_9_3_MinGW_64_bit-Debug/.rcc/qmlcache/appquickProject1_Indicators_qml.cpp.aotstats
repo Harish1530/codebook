@@ -1,0 +1,84 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "updateIndicators",
+                        "line": 81
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 462,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 208,
+                        "errorMessage": "",
+                        "functionName": "running",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 166,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 150,
+                        "errorMessage": "",
+                        "functionName": "running",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 138,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 158,
+                        "errorMessage": "",
+                        "functionName": "running",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 130,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 73
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 145,
+                        "errorMessage": "",
+                        "functionName": "running",
+                        "line": 74
+                    }
+                ],
+                "filePath": "D:/Git_Checkout/quickProject1/Indicators.qml"
+            }
+        ],
+        "moduleId": "quickProject1(appquickProject1)"
+    }
+]

@@ -1,0 +1,10 @@
+-I
+D:/Git_Checkout/quickProject1/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug
+-I
+C:/Qt/6.9.3/mingw_64/qml
+--resource
+D:/Git_Checkout/quickProject1/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/qmake_quickProject1.qrc
+--resource
+D:/Git_Checkout/quickProject1/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/appquickProject1_raw_qml_0.qrc
+--module
+quickProject1

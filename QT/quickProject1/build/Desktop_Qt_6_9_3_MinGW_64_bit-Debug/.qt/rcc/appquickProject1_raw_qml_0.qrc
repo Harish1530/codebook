@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/qt/qml/quickProject1/">
+    <file alias="Main.qml">D:/Git_Checkout/quickProject1/Main.qml</file>
+    <file alias="FuelGauge.qml">D:/Git_Checkout/quickProject1/FuelGauge.qml</file>
+    <file alias="Indicators.qml">D:/Git_Checkout/quickProject1/Indicators.qml</file>
+    <file alias="RPMGauge.qml">D:/Git_Checkout/quickProject1/RPMGauge.qml</file>
+    <file alias="Speedometer.qml">D:/Git_Checkout/quickProject1/Speedometer.qml</file>
+    <file alias="Practice.qml">D:/Git_Checkout/quickProject1/Practice.qml</file>
+  </qresource>
+</RCC>
+

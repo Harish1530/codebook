@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/com/digitalinstrumentcluster">
-    <file alias="qmldir">/home/harish-1530/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/com/digitalinstrumentcluster/qmldir</file>
-  </qresource>
-</RCC>
-

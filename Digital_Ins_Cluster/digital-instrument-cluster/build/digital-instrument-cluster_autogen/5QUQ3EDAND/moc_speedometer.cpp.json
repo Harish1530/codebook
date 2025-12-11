@@ -2,6 +2,7 @@
     "classes": [
         {
             "className": "Speedometer",
+            "lineNumber": 7,
             "object": true,
             "qualifiedClassName": "Speedometer",
             "signals": [
@@ -13,6 +14,7 @@
                             "type": "float"
                         }
                     ],
+                    "index": 0,
                     "name": "speedChanged",
                     "returnType": "void"
                 }
@@ -26,5 +28,5 @@
         }
     ],
     "inputFile": "speedometer.h",
-    "outputRevision": 68
+    "outputRevision": 69
 }

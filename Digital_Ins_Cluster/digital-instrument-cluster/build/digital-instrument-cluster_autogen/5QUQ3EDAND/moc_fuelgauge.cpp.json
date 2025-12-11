@@ -2,6 +2,7 @@
     "classes": [
         {
             "className": "FuelGauge",
+            "lineNumber": 6,
             "object": true,
             "qualifiedClassName": "FuelGauge",
             "signals": [
@@ -13,6 +14,7 @@
                             "type": "float"
                         }
                     ],
+                    "index": 0,
                     "name": "fuelLevelChanged",
                     "returnType": "void"
                 }
@@ -26,5 +28,5 @@
         }
     ],
     "inputFile": "fuelgauge.h",
-    "outputRevision": 68
+    "outputRevision": 69
 }

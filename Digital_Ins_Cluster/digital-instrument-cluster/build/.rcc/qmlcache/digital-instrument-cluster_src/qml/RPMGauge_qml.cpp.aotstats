@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 246,
+                        "errorMessage": "",
+                        "functionName": "onRpmChanged",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 18,
+                        "durationMicroseconds": 239,
+                        "errorMessage": "Cannot access value for name rpm",
+                        "functionName": "onPaint",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 14
+                    }
+                ],
+                "filepath": "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/src/qml/RPMGauge.qml"
+            }
+        ],
+        "moduleId": "com.digitalinstrumentcluster(digital-instrument-cluster)"
+    }
+]

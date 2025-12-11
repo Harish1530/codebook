@@ -8,15 +8,17 @@
 #include <QtQml/qqmlmoduleregistration.h>
 
 
+
 #if !defined(QT_STATIC)
 #define Q_QMLTYPE_EXPORT Q_DECL_EXPORT
 #else
 #define Q_QMLTYPE_EXPORT
 #endif
-
 Q_QMLTYPE_EXPORT void qml_register_types_com_digitalinstrumentcluster()
 {
+    QT_WARNING_PUSH QT_WARNING_DISABLE_DEPRECATED
+    QT_WARNING_POP
     qmlRegisterModule("com.digitalinstrumentcluster", 1, 0);
 }
 
-static const QQmlModuleRegistration registration("com.digitalinstrumentcluster", qml_register_types_com_digitalinstrumentcluster);
+static const QQmlModuleRegistration comdigitalinstrumentclusterRegistration("com.digitalinstrumentcluster", qml_register_types_com_digitalinstrumentcluster);

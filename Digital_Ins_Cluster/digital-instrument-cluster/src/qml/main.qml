@@ -7,6 +7,9 @@ ApplicationWindow {
     height: 600
     title: "Digital Instrument Cluster Simulator"
 
+    Component.onCompleted: {
+    console.log("Inside app")
+}
     // Speedometer
     Speedometer {
         id: speedometer
@@ -15,6 +18,7 @@ ApplicationWindow {
         anchors.right: parent.right
         height: 200
     }
+    
 
     // RPM Gauge
     RPMGauge {

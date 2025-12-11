@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "digital-instrument-cluster",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-81ace349c1c5118cffd7.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-6f87e8cbed357278ce56.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-4ef81fc0afb03a1a854b.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-3378fa2b22dca8aa50ae.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-764f67c8e82605fad68f.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "digital-instrument-cluster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-digital-instrument-cluster-Debug-a8be25e36c09687b0603.json",
+					"name" : "digital-instrument-cluster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "digital-instrument-cluster_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-digital-instrument-cluster_autogen-Debug-d09f3b4fa732424a11d6.json",
+					"name" : "digital-instrument-cluster_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "digital-instrument-cluster_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-digital-instrument-cluster_autogen_timestamp_deps-Debug-4f90e8a34c731cd36f1a.json",
+					"name" : "digital-instrument-cluster_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "digital-instrument-cluster_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-digital-instrument-cluster_copy_qml-Debug-b7a71e8314fa4af8d341.json",
+					"name" : "digital-instrument-cluster_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "digital-instrument-cluster_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-digital-instrument-cluster_copy_res-Debug-4f4cea33feff96530676.json",
+					"name" : "digital-instrument-cluster_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "digital-instrument-cluster_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-digital-instrument-cluster_other_files-Debug-79df54efc7f1dccb57e2.json",
+					"name" : "digital-instrument-cluster_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "digital-instrument-cluster_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-digital-instrument-cluster_qmllint-Debug-15a5814f2dcf883d71c9.json",
+					"name" : "digital-instrument-cluster_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "digital-instrument-cluster_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-digital-instrument-cluster_qmllint_json-Debug-b0635d693e8df9df5fcc.json",
+					"name" : "digital-instrument-cluster_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "digital-instrument-cluster_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-digital-instrument-cluster_qmllint_module-Debug-18d4a0163127f838147a.json",
+					"name" : "digital-instrument-cluster_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "digital-instrument-cluster_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-digital-instrument-cluster_qmltyperegistration-Debug-374f4b88876e9b9985a8.json",
+					"name" : "digital-instrument-cluster_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_digital-instrument-cluster_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_digital-instrument-cluster_aotstats_target-Debug-dd2287b968c0562260d9.json",
+					"name" : "module_digital-instrument-cluster_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build",
+		"source" : "D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

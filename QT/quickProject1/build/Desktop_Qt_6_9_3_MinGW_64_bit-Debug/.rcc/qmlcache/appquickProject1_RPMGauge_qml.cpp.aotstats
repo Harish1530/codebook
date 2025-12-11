@@ -1,0 +1,108 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 1377,
+                        "errorMessage": "",
+                        "functionName": "startRad",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 712,
+                        "errorMessage": "",
+                        "functionName": "endRad",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 1464,
+                        "errorMessage": "",
+                        "functionName": "gaugeSpan",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 827,
+                        "errorMessage": "",
+                        "functionName": "outerRadius",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 331,
+                        "errorMessage": "",
+                        "functionName": "innerRadius",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 410,
+                        "errorMessage": "",
+                        "functionName": "needleLength",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 513,
+                        "errorMessage": "",
+                        "functionName": "onRpmChanged",
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "setRpm",
+                        "line": 236
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "Cannot access value for name stepInterval",
+                        "functionName": "interval",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 698,
+                        "errorMessage": "Cannot access value for name displayedRpm",
+                        "functionName": "onTriggered",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 29923,
+                        "errorMessage": "Cannot access value for name outerRadius",
+                        "functionName": "onPaint",
+                        "line": 67
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 370,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 65
+                    }
+                ],
+                "filePath": "D:/Git_Checkout/quickProject1/RPMGauge.qml"
+            }
+        ],
+        "moduleId": "quickProject1(appquickProject1)"
+    }
+]

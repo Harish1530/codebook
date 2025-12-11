@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/com/digitalinstrumentcluster">D:/Git_Checkout/Git_Checkout/codebook/Digital_Ins_Cluster/digital-instrument-cluster/build/com/digitalinstrumentcluster</file>
+
+  </qresource>
+</RCC>
