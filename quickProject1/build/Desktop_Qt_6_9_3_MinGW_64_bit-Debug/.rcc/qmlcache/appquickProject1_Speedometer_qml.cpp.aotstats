@@ -1,0 +1,108 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 1010,
+                        "errorMessage": "",
+                        "functionName": "startRad",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 617,
+                        "errorMessage": "",
+                        "functionName": "endRad",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 399,
+                        "errorMessage": "",
+                        "functionName": "gaugeSpan",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 536,
+                        "errorMessage": "",
+                        "functionName": "onSpeedChanged",
+                        "line": 61
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "updateSpeed",
+                        "line": 219
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 107,
+                        "errorMessage": "Cannot access value for name stepInterval",
+                        "functionName": "interval",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 901,
+                        "errorMessage": "Cannot access value for name displayedSpeed",
+                        "functionName": "onTriggered",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 434,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 71
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 259,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 72
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 20262,
+                        "errorMessage": "Cannot access value for name radius",
+                        "functionName": "onPaint",
+                        "line": 80
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 464,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 77
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 327,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 78
+                    }
+                ],
+                "filePath": "D:/Git_Checkout/quickProject1/Speedometer.qml"
+            }
+        ],
+        "moduleId": "quickProject1(appquickProject1)"
+    }
+]
