@@ -1,0 +1,13 @@
+module quickProject1
+typeinfo appquickProject1.qmltypes
+prefer :/qt/qml/quickProject1/
+Main 254.0 Main.qml
+FuelGauge 254.0 FuelGauge.qml
+Indicators 254.0 Indicators.qml
+RPMGauge 254.0 RPMGauge.qml
+Speedometer 254.0 Speedometer.qml
+Trip 254.0 Trip.qml
+Odometer 254.0 Odometer.qml
+GearColumn 254.0 GearColumn.qml
+depends QtQuick
+

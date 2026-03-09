@@ -1,0 +1,14 @@
+module Cluster
+typeinfo appquickProject1.qmltypes
+prefer :/qt/qml/Cluster/
+Main 1.0 Main.qml
+FuelGauge 1.0 FuelGauge.qml
+Indicators 1.0 Indicators.qml
+RPMGauge 1.0 RPMGauge.qml
+Speedometer 1.0 Speedometer.qml
+Trip 1.0 Trip.qml
+Odometer 1.0 Odometer.qml
+GearColumn 1.0 GearColumn.qml
+Theme 1.0 Theme.qml
+depends QtQuick
+

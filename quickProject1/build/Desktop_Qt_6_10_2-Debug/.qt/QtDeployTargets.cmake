@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appquickProject1_FILE /home/harish-1530/Git_Checkout/codebook/quickProject1/build/Desktop_Qt_6_10_2-Debug/appquickProject1)
+set(__QT_DEPLOY_TARGET_appquickProject1_TYPE EXECUTABLE)

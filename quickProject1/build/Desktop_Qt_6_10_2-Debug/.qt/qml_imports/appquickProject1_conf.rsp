@@ -1,0 +1,14 @@
+-rootPath
+/home/harish-1530/Git_Checkout/codebook/quickProject1
+-cmake-output
+-output-file
+/home/harish-1530/Git_Checkout/codebook/quickProject1/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/appquickProject1_conf.cmake
+-importPath
+/home/harish-1530/Git_Checkout/codebook/quickProject1/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/harish-1530/Git_Checkout/codebook/quickProject1/build/Desktop_Qt_6_10_2-Debug/quickProject1
+-importPath
+/home/harish-1530/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/harish-1530/Git_Checkout/codebook/quickProject1/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_quickProject1.qrc
+/home/harish-1530/Git_Checkout/codebook/quickProject1/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appquickProject1_raw_qml_0.qrc
