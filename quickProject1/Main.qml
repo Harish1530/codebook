@@ -1,286 +1,286 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
-import Cluster 1.0
-
+import QtQuick.Window 2.15
 ApplicationWindow {
+visible: true
+width: 1400
+height: 800
+title: "Digital Instrument Cluster Simulator"
 
-    visible: true
-    width: 1600
-    height: 900
-    title: "Digital Instrument Cluster Simulator"
+Item {
+    id: root
+    anchors.fill: parent
+    focus: true
 
-    property bool showTripMenu: false
-    property bool darkMode: true
+Keys.onPressed: {
+    if(event.key === Qt.Key_D){
+        testPanel.visible = !testPanel.visible
+        event.accepted = true
+    }
+}
 
-    Rectangle {
-        anchors.fill: parent
-        gradient: Gradient {
-            GradientStop { position: 0; color: darkMode ? "#101820" : "#e8f0ff" }
-            GradientStop { position: 1; color: darkMode ? "#040b14" : "#cfdfff" }
+property bool darkMode: true
+
+Rectangle {
+    anchors.fill: parent
+    gradient: Gradient {
+        GradientStop { position: 0.0; color: darkMode ? "#191919" : "#e8f0ff" }
+        GradientStop { position: 0.6; color: darkMode ? "#2b2b2b" : "#d9e6ff" }
+        GradientStop { position: 1.0; color: darkMode ? "#0d0d0d" : "#cddcff" }
+    }
+}
+
+ColumnLayout {
+    anchors.fill: parent
+    anchors.margins: 30
+    spacing: 30
+
+    //---------------------------------
+    // INDICATORS ROW
+    //---------------------------------
+    RowLayout {
+        Layout.alignment: Qt.AlignHCenter
+        spacing: 20
+
+        Indicators {
+            id: indicators
         }
     }
 
-    ColumnLayout {
-        anchors.fill: parent
-        anchors.margins: 30
-        spacing: 25
+    //---------------------------------
+    // MAIN INSTRUMENTS
+    //---------------------------------
+    RowLayout {
+        Layout.fillWidth: true
+        Layout.alignment: Qt.AlignHCenter
+        spacing: 60
 
-        //--------------------------------------------------
-        // TOP INDICATORS
-        //--------------------------------------------------
-
-        RowLayout {
-            Layout.fillWidth: true
-            Layout.alignment: Qt.AlignHCenter
-            spacing: 40
-
-            Indicators {
-                id: indicators
-            }
-
-            Item { Layout.fillWidth: true }
-
-            Text {
-                text: "23°C"
-                color: "white"
-                font.pixelSize: 18
-            }
-
-            Text {
-                text: "P"
-                color: "#00ff88"
-                font.pixelSize: 24
-                font.bold: true
-            }
-
-            Text {
-                text: "14:19"
-                color: "white"
-                font.pixelSize: 18
-            }
+        // SPEEDOMETER
+        Speedometer {
+            id: speedometer
+            width: 360
+            height: 360
         }
 
-        //--------------------------------------------------
-        // MAIN CLUSTER
-        //--------------------------------------------------
-
-        RowLayout {
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            Layout.alignment: Qt.AlignHCenter
-            spacing: 60
-
-            //----------------------------------
-            // LEFT GAUGE (RPM)
-            //----------------------------------
-
-            RPMGauge {
-                id: rpmGauge
-                width: 380
-                height: 380
-            }
-
-            //----------------------------------
-            // CENTER HUD
-            //----------------------------------
-
-            Item {
-
-                id: centerHUD
-                width: 420
-                height: 420
-
-                //----------------------------------
-                // HUD BACKGROUND CIRCLE
-                //----------------------------------
-
-                Rectangle {
-                    anchors.centerIn: parent
-                    width: 320
-                    height: 320
-                    radius: 160
-
-                    gradient: Gradient {
-                        GradientStop { position: 0; color: "#0c2d57" }
-                        GradientStop { position: 1; color: "#00152e" }
-                    }
-
-                    border.color: "#2aa7ff"
-                    border.width: 2
-                }
-
-                //----------------------------------
-                // CENTER TOP MENU
-                //----------------------------------
-
-                Text {
-                    id: topMenuText
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    anchors.top: parent.top
-                    anchors.topMargin: 30
-
-                    text: showTripMenu ? "TRIP MENU" : "ADAS"
-                    color: "#55ff88"
-                    font.pixelSize: 20
-                    font.bold: true
-                }
-
-                //----------------------------------
-                // ADAS DISPLAY (DEFAULT)
-                //----------------------------------
-
-                Column {
-
-                    visible: !showTripMenu
-                    anchors.centerIn: parent
-                    spacing: 10
-
-                    Text {
-                        id: speedText
-                        text: "0"
-                        color: "white"
-                        font.pixelSize: 80
-                        font.bold: true
-                        horizontalAlignment: Text.AlignHCenter
-                        anchors.horizontalCenter: parent.horizontalCenter
-                    }
-
-                    Text {
-                        text: "km/h"
-                        color: "#a0cfff"
-                        font.pixelSize: 18
-                        anchors.horizontalCenter: parent.horizontalCenter
-                    }
-
-                    Rectangle {
-                        width: 120
-                        height: 50
-                        radius: 10
-                        color: "#0f1f33"
-
-                        Text {
-                            anchors.centerIn: parent
-                            text: "ADAS ACTIVE"
-                            color: "#66ccff"
-                            font.pixelSize: 14
-                        }
-                    }
-                }
-
-                //----------------------------------
-                // TRIP MENU (RIGHT CLICK)
-                //----------------------------------
-
-                Column {
-
-                    visible: showTripMenu
-                    anchors.centerIn: parent
-                    spacing: 15
-
-                    Trip {
-                        id: tripMenu
-                        width: 250
-                    }
-
-                    Odometer {
-                        id: odometer
-                        width: 250
-                    }
-                }
-
-                //----------------------------------
-                // RIGHT CLICK MENU SWITCH
-                //----------------------------------
-
-                MouseArea {
-                    anchors.fill: parent
-                    acceptedButtons: Qt.RightButton
-
-                    onClicked: {
-                        showTripMenu = !showTripMenu
-                    }
-                }
-            }
-
-            //----------------------------------
-            // RIGHT GAUGE (SPEED)
-            //----------------------------------
-
-            Speedometer {
-                id: speedometer
-                width: 380
-                height: 380
-            }
+        // GEAR INDICATOR
+        GearColumn {
+            id: gearIndicator
+            currentGear: 1
         }
 
-        //--------------------------------------------------
-        // BOTTOM INFO ROW
-        //--------------------------------------------------
+        // TRIP + ODOMETER
+        ColumnLayout {
+            spacing: 15
 
-        RowLayout {
-
-            Layout.fillWidth: true
-            spacing: 40
-
-            FuelGauge {
-                id: fuelGauge
+            Trip {
+                id: tripMenu
                 width: 260
-                height: 70
             }
 
-            Item { Layout.fillWidth: true }
-
-            //----------------------------------
-            // ENGINE TEMP
-            //----------------------------------
-
-            Rectangle {
-                width: 300
-                height: 70
-                radius: 8
-                color: "#0c1118"
-
-                Row {
-                    anchors.centerIn: parent
-                    spacing: 10
-
-                    Text {
-                        text: "ENGINE TEMP"
-                        color: "white"
-                    }
-
-                    ProgressBar {
-                        id: tempBar
-                        width: 160
-                        value: 0.35
-                    }
-
-                    Text {
-                        text: Math.round(tempBar.value * 120) + "°C"
-                        color: "white"
-                    }
-                }
+            Odometer {
+                id: odometer
+                width: 260
             }
+        }
 
-            //----------------------------------
-            // LIGHT / DARK MODE SWITCH
-            //----------------------------------
+        // RPM
+        RPMGauge {
+            id: rpmGauge
+            width: 360
+            height: 360
+        }
+    }
+
+
+    RowLayout {
+        Layout.fillWidth: true
+        spacing: 10
+
+        // Fuel gauge left side
+        FuelGauge {
+            id: fuelGauge
+            width: 300
+            height: 70
+        }
+
+        Item { Layout.fillWidth: true }
+
+        // Engine temperature
+        Rectangle {
+            width: 300
+            height: 70
+            radius: 7
+            color: "#101010"
 
             Row {
-
+                anchors.centerIn: parent
                 spacing: 10
 
                 Text {
-                    text: darkMode ? "Dark" : "Light"
+                    text: "ENGINE TEMP"
                     color: "white"
                 }
 
-                Switch {
-                    checked: darkMode
-                    onCheckedChanged: darkMode = checked
+                ProgressBar {
+                    id: tempBar
+                    width: 160
+                    value: 0.35
+                }
+
+                Text {
+                    text: Math.round(tempBar.value * 120) + "°C"
+                    color: "white"
                 }
             }
         }
     }
+
+    RowLayout {
+        Layout.alignment: Qt.AlignRight
+
+        Text {
+            text: darkMode ? "Dark" : "Light"
+            color: "white"
+        }
+
+        Switch {
+            checked: darkMode
+            onCheckedChanged: darkMode = checked
+        }
+    }
+}
+
+Rectangle {
+
+    id: testPanel
+    width: parent.width
+    height: 200
+    color: "#222222"
+
+    anchors.bottom: parent.bottom
+
+    Column {
+
+        anchors.centerIn: parent
+        spacing: 10
+
+
+        Row {
+            spacing: 10
+
+            Text { text: "Speed"; color: "white" }
+
+            Slider {
+                id: speedSlider
+                from: 0
+                to: 200
+                width: 300
+
+                onValueChanged: {
+                    speedometer.updateSpeed(value)
+                }
+            }
+
+            Text {
+                text: Math.round(speedSlider.value) + " km/h"
+                color: "white"
+            }
+        }
+
+        //---------------------------------
+        // RPM CONTROL
+        //---------------------------------
+
+        Row {
+            spacing: 10
+
+            Text { text: "RPM"; color: "white" }
+
+            Slider {
+                id: rpmSlider
+                from: 0
+                to: 8000
+                width: 300
+
+                onValueChanged: {
+                    rpmGauge.setRpm(value)
+                }
+            }
+
+            Text {
+                text: Math.round(rpmSlider.value)
+                color: "white"
+            }
+        }
+
+        //---------------------------------
+        // FUEL LEVEL
+        //---------------------------------
+
+        Row {
+            spacing: 10
+
+            Text { text: "Fuel"; color: "white" }
+
+            Slider {
+                from: 0
+                to: 1
+                width: 300
+
+                onValueChanged: {
+                    fuelGauge.targetFuel = value
+                }
+            }
+        }
+
+        //---------------------------------
+        // GEAR SELECT
+        //---------------------------------
+
+        Row {
+            spacing: 10
+
+            Text { text: "Gear"; color: "white" }
+
+            ComboBox {
+                model: ["R","N","1","2","3","4","5","6"]
+
+                onCurrentIndexChanged: {
+                    gearIndicator.currentGear = currentIndex - 1
+                }
+            }
+        }
+
+        //---------------------------------
+        // INDICATORS
+        //---------------------------------
+
+        Row {
+            spacing: 20
+
+            CheckBox {
+                text: "Left Indicator"
+                onCheckedChanged: indicators.leftIndicator = checked
+            }
+
+            CheckBox {
+                text: "Right Indicator"
+                onCheckedChanged: indicators.rightIndicator = checked
+            }
+
+            CheckBox {
+                text: "Engine Warning"
+                onCheckedChanged: indicators.engineWarning = checked
+            }
+
+            CheckBox {
+                text: "ABS"
+                onCheckedChanged: indicators.absWarning = checked
+            }
+        }
+
+    }
+}
+}
 }

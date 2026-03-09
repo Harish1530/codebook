@@ -16,6 +16,13 @@ Item {
 
         Rectangle {
             width: 40; height: 40
+            color: leftIndicator ? "green" : "#202020"
+            radius: 4
+            Text { anchors.centerIn: parent; text: "←"; color: "white" }
+        }
+
+        Rectangle {
+            width: 40; height: 40
             color: engineWarning ? "red" : "#202020"
             radius: 4
             Text { anchors.centerIn: parent; text: "ENG"; color: "white" }
@@ -25,28 +32,21 @@ Item {
             width: 40; height: 40
             color: serviceWarning ? "yellow" : "#202020"
             radius: 4
-            Text { anchors.centerIn: parent; text: "SRV"; color: "black" }
+            Text { anchors.centerIn: parent; text: "SRV"; color: "white" }
         }
 
         Rectangle {
             width: 40; height: 40
             color: absWarning ? "orange" : "#202020"
             radius: 4
-            Text { anchors.centerIn: parent; text: "ABS"; color: "black" }
-        }
-
-        Rectangle {
-            width: 40; height: 40
-            color: leftIndicator ? "green" : "#202020"
-            radius: 4
-            Text { anchors.centerIn: parent; text: "←"; color: "black" }
+            Text { anchors.centerIn: parent; text: "ABS"; color: "white" }
         }
 
         Rectangle {
             width: 40; height: 40
             color: rightIndicator ? "green" : "#202020"
             radius: 4
-            Text { anchors.centerIn: parent; text: "→"; color: "black" }
+            Text { anchors.centerIn: parent; text: "→"; color: "white" }
         }
     }
 }

@@ -25,10 +25,14 @@ Item {
         onTriggered: {
             if(displayedFuel < targetFuel) {
                 displayedFuel = Math.min(displayedFuel + 0.001, targetFuel)
-                barCanvas.requestPaint()
-            } else {
+            }
+            else if(displayedFuel > targetFuel){
+                displayedFuel = Math.min(displayedFuel - 0.001, targetFuel)
+            }
+            else {
                 stop()
             }
+            barCanvas.requestPaint()
         }
     }
 

@@ -20,11 +20,12 @@ qt_add_qml_module(appquickProject1
         Indicators.qml
         RPMGauge.qml
         Speedometer.qml
-        QML_FILES
-        QML_FILES Trip.qml
-        QML_FILES Odometer.qml
-        QML_FILES trial.qml
-        QML_FILES GearColumn.qml
+        Trip.qml
+        Odometer.qml
+        trial.qml
+        GearColumn.qml
+        Theme.qml
+
 
 )
 

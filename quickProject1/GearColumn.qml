@@ -2,7 +2,7 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15
 
 Item {
-    id: root
+    id: gearIndicator
     property int currentGear: 0     // -1 = R, 0 = N, 1..6 gears
     property int maxGears: 6
     property int columnWidth: 60
@@ -20,13 +20,13 @@ Item {
         Repeater {
             model: maxGears + 2   // show "R", "N" and gears 1..max
             delegate: Rectangle {
-                width: root.columnWidth - 8
+                width: gearIndicator.columnWidth - 8
                 height: 28
                 radius: 4
                 color: {
                     var idx = index - 1  // index 0 -> R, 1 -> N, 2.. -> gear1..
                     var gearVal = (idx < 0 ? -1 : (idx==0 ? 0 : idx))
-                    return gearVal === root.currentGear ? activeColor : inactiveColor
+                    return gearVal === gearIndicator.currentGear ? activeColor : inactiveColor
                 }
                 border.color: "#444"
                 Text {

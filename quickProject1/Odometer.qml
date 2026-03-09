@@ -14,7 +14,7 @@ Rectangle {
         anchors.centerIn: parent
         text: totalDistance.toString().padStart(7,"0") + " km"
         color: "#00FF00"
-        font.pixelSize: 22
+        font.pixelSize: 18
         font.family: "Ubuntu"
     }
 }
