@@ -1,0 +1,5 @@
+module CanSender
+typeinfo appCanSender.qmltypes
+prefer :/qt/qml/CanSender/
+depends QtQuick
+

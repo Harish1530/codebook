@@ -1,0 +1,8 @@
+-I
+D:/Git_Checkout/CanSender/build/Desktop_Qt_6_9_3_llvm_mingw_64_bit-Debug
+-I
+C:/Qt/6.9.3/llvm-mingw_64/qml
+--resource
+D:/Git_Checkout/CanSender/build/Desktop_Qt_6_9_3_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_CanSender.qrc
+--module
+CanSender

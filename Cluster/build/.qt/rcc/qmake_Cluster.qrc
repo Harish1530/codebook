@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Cluster">
+    <file alias="qmldir">D:/Git_Checkout/Git_Checkout/codebook/Cluster/build/Cluster/qmldir</file>
+  </qresource>
+</RCC>
+

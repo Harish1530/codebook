@@ -1,0 +1,674 @@
+{
+    "classes": [
+        {
+            "className": "ClusterController",
+            "lineNumber": 4,
+            "methods": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 36,
+                    "name": "resetTrip",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "speed",
+                    "notify": "speedChanged",
+                    "read": "speed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setSpeed"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "rpm",
+                    "notify": "rpmChanged",
+                    "read": "rpm",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setRpm"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "fuel",
+                    "notify": "fuelChanged",
+                    "read": "fuel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setFuel"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "gear",
+                    "notify": "gearChanged",
+                    "read": "gear",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setGear"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "engineTempC",
+                    "notify": "engineTempCChanged",
+                    "read": "engineTempC",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setEngineTempC"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "odometerKm",
+                    "notify": "odometerKmChanged",
+                    "read": "odometerKm",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setOdometerKm"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "leftIndicator",
+                    "notify": "indicatorsChanged",
+                    "read": "leftIndicator",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setLeftIndicator"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "rightIndicator",
+                    "notify": "indicatorsChanged",
+                    "read": "rightIndicator",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setRightIndicator"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "engineWarning",
+                    "notify": "indicatorsChanged",
+                    "read": "engineWarning",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setEngineWarning"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "absWarning",
+                    "notify": "indicatorsChanged",
+                    "read": "absWarning",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setAbsWarning"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "serviceWarning",
+                    "notify": "indicatorsChanged",
+                    "read": "serviceWarning",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setServiceWarning"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "trip1Km",
+                    "notify": "trip1KmChanged",
+                    "read": "trip1Km",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setTrip1Km"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "trip2Km",
+                    "notify": "trip2KmChanged",
+                    "read": "trip2Km",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setTrip2Km"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "trip1Hours",
+                    "notify": "trip1HoursChanged",
+                    "read": "trip1Hours",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setTrip1Hours"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 14,
+                    "name": "trip2Hours",
+                    "notify": "trip2HoursChanged",
+                    "read": "trip2Hours",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setTrip2Hours"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 15,
+                    "name": "trip1AvgSpeedKph",
+                    "notify": "trip1AvgSpeedKphChanged",
+                    "read": "trip1AvgSpeedKph",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setTrip1AvgSpeedKph"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 16,
+                    "name": "trip2AvgSpeedKph",
+                    "notify": "trip2AvgSpeedKphChanged",
+                    "read": "trip2AvgSpeedKph",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setTrip2AvgSpeedKph"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 17,
+                    "name": "trip1EnergyKWhPerKm",
+                    "notify": "trip1EnergyKWhPerKmChanged",
+                    "read": "trip1EnergyKWhPerKm",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setTrip1EnergyKWhPerKm"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 18,
+                    "name": "trip2EnergyKWhPerKm",
+                    "notify": "trip2EnergyKWhPerKmChanged",
+                    "read": "trip2EnergyKWhPerKm",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setTrip2EnergyKWhPerKm"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 19,
+                    "name": "activeTrip",
+                    "notify": "activeTripChanged",
+                    "read": "activeTrip",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setActiveTrip"
+                }
+            ],
+            "qualifiedClassName": "ClusterController",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "speedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "rpmChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "fuelChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "gearChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "engineTempCChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "odometerKmChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "trip1KmChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "trip2KmChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "name": "trip1HoursChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "trip2HoursChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "trip1AvgSpeedKphChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "name": "trip2AvgSpeedKphChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "name": "trip1EnergyKWhPerKmChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "name": "trip2EnergyKWhPerKmChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "name": "activeTripChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 15,
+                    "name": "indicatorsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 16,
+                    "name": "setSpeed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 17,
+                    "name": "setRpm",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 18,
+                    "name": "setFuel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 19,
+                    "name": "setGear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 20,
+                    "name": "setEngineTempC",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 21,
+                    "name": "setOdometerKm",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "v",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 22,
+                    "name": "setTrip1Km",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "v",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 23,
+                    "name": "setTrip2Km",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "v",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 24,
+                    "name": "setTrip1Hours",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "v",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 25,
+                    "name": "setTrip2Hours",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "v",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 26,
+                    "name": "setTrip1AvgSpeedKph",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "v",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 27,
+                    "name": "setTrip2AvgSpeedKph",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "v",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 28,
+                    "name": "setTrip1EnergyKWhPerKm",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "v",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 29,
+                    "name": "setTrip2EnergyKWhPerKm",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "v",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 30,
+                    "name": "setActiveTrip",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 31,
+                    "name": "setLeftIndicator",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 32,
+                    "name": "setRightIndicator",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 33,
+                    "name": "setEngineWarning",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 34,
+                    "name": "setAbsWarning",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 35,
+                    "name": "setServiceWarning",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "clustercontroller.h",
+    "outputRevision": 69
+}

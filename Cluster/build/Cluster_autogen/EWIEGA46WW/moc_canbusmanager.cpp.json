@@ -1,0 +1,234 @@
+{
+    "classes": [
+        {
+            "className": "CanBusManager",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "plugin",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "interfaceName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "bitrate",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "start",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "plugin",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "interfaceName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "isCloned": true,
+                    "name": "start",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "stop",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "isConst": true,
+                    "name": "isRunning",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "kph",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "sendSpeedKph",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rpm",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "sendRpm",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "frac0to1",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "sendFuelFraction",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "tempC",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "sendTempC",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "km",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "sendOdometerKm",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "km",
+                            "type": "double"
+                        },
+                        {
+                            "name": "hours",
+                            "type": "double"
+                        },
+                        {
+                            "name": "avgKph",
+                            "type": "double"
+                        },
+                        {
+                            "name": "energyKWhPerKm",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 13,
+                    "name": "sendTrip1",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "km",
+                            "type": "double"
+                        },
+                        {
+                            "name": "hours",
+                            "type": "double"
+                        },
+                        {
+                            "name": "avgKph",
+                            "type": "double"
+                        },
+                        {
+                            "name": "energyKWhPerKm",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 14,
+                    "name": "sendTrip2",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 15,
+                    "name": "setActiveTrip",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "CanBusManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ok",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "error",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "stopped",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "errorText",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "onFramesReceived",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "canbusmanager.h",
+    "outputRevision": 69
+}

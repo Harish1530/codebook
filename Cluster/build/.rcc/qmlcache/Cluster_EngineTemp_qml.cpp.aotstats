@@ -1,0 +1,300 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 219,
+                        "errorMessage": "Cannot access value for name cluster",
+                        "functionName": "tempC",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 126,
+                        "errorMessage": "",
+                        "functionName": "displayedTemp",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "onTempCChanged",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 499,
+                        "errorMessage": "",
+                        "functionName": "barColor",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 428,
+                        "errorMessage": "",
+                        "functionName": "labelColor",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 235,
+                        "errorMessage": "",
+                        "functionName": "onDisplayedTempChanged",
+                        "line": 209
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 55,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 191,
+                        "errorMessage": "Cannot access value for name displayedTemp",
+                        "functionName": "onPaint",
+                        "line": 61
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 58
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 102
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 83,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 104
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 106
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 112
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 116
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 122
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "Cannot access value for name displayedTemp",
+                        "functionName": "width",
+                        "line": 124
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 13,
+                        "errorMessage": "Cannot access value for name barColor",
+                        "functionName": "color",
+                        "line": 126
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "Cannot load property radius from (component in D:/Git_Checkout/Git_Checkout/codebook/Cluster/EngineTemp.qml)::parent with type QQuickItem.",
+                        "functionName": "radius",
+                        "line": 131
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 130
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "orientation",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 62,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "Cannot access value for name barColor",
+                        "functionName": "color",
+                        "line": 134
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 62,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "Cannot access value for name barColor",
+                        "functionName": "color",
+                        "line": 135
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 62,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "Cannot access value for name barColor",
+                        "functionName": "color",
+                        "line": 136
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 67,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 142
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 152
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 154
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "Cannot access value for name displayedTemp",
+                        "functionName": "text",
+                        "line": 164
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name labelColor",
+                        "functionName": "color",
+                        "line": 165
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 142,
+                        "errorMessage": "Cannot access value for name displayedTemp",
+                        "functionName": "text",
+                        "line": 174
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name labelColor",
+                        "functionName": "color",
+                        "line": 180
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "Cannot access value for name displayedTemp",
+                        "functionName": "running",
+                        "line": 191
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 192
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 195
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 201
+                    }
+                ],
+                "filePath": "D:/Git_Checkout/Git_Checkout/codebook/Cluster/EngineTemp.qml"
+            }
+        ],
+        "moduleId": "Cluster(Cluster)"
+    }
+]

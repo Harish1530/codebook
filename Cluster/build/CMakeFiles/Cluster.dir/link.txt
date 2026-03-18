@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Cluster.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\Cluster.dir/objects.a @CMakeFiles\Cluster.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\Cluster.dir/objects.a -Wl,--no-whole-archive -o Cluster.exe -Wl,--out-implib,libCluster.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Cluster.dir\linkLibs.rsp

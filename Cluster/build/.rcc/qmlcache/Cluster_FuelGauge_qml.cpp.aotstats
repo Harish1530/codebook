@@ -1,0 +1,92 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 374,
+                        "errorMessage": "",
+                        "functionName": "onFuelLevelChanged",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "setfuelLevel",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "interval",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 248,
+                        "errorMessage": "Cannot access value for name displayedFuel",
+                        "functionName": "onTriggered",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 648,
+                        "errorMessage": "Cannot access value for name backgroundColor",
+                        "functionName": "onPaint",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 150,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 103
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "Cannot access value for name displayedFuel",
+                        "functionName": "text",
+                        "line": 104
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 16,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "Cannot access value for name displayedFuel",
+                        "functionName": "color",
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 102
+                    }
+                ],
+                "filePath": "D:/Git_Checkout/Git_Checkout/codebook/Cluster/FuelGauge.qml"
+            }
+        ],
+        "moduleId": "Cluster(Cluster)"
+    }
+]

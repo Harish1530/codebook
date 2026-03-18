@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/CanSender/">
+    <file alias="Main.qml">D:/Git_Checkout/CanSender/Main.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,84 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 179,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 13,
+                        "durationMicroseconds": 152,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "Cannot access value for name maxGears",
+                        "functionName": "model",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "Cannot access value for name gearIndicator",
+                        "functionName": "width",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 136,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "color",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "Cannot access value for name textColor",
+                        "functionName": "color",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 224,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "text",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 33
+                    }
+                ],
+                "filePath": "D:/Git_Checkout/Git_Checkout/codebook/Cluster/GearColumn.qml"
+            }
+        ],
+        "moduleId": "Cluster(Cluster)"
+    }
+]

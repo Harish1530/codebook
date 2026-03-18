@@ -1,0 +1,13 @@
+--resource
+D:/Git_Checkout/Git_Checkout/codebook/Cluster/build/.qt/rcc/qmake_Cluster.qrc
+--resource
+D:/Git_Checkout/Git_Checkout/codebook/Cluster/build/.qt/rcc/Cluster_raw_qml_0.qrc
+/qt/qml/Cluster/Main.qml
+/qt/qml/Cluster/Speedometer.qml
+/qt/qml/Cluster/RPMGauge.qml
+/qt/qml/Cluster/FuelGauge.qml
+/qt/qml/Cluster/EngineTemp.qml
+/qt/qml/Cluster/Trip.qml
+/qt/qml/Cluster/Odometer.qml
+/qt/qml/Cluster/Indicators.qml
+/qt/qml/Cluster/GearColumn.qml

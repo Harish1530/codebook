@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 144,
+                        "errorMessage": "Cannot access value for name totalDistance",
+                        "functionName": "text",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 133,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 14
+                    }
+                ],
+                "filePath": "D:/Git_Checkout/Git_Checkout/codebook/Cluster/Odometer.qml"
+            }
+        ],
+        "moduleId": "Cluster(Cluster)"
+    }
+]

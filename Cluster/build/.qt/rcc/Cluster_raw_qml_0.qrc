@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/qt/qml/Cluster/">
+    <file alias="Main.qml">D:/Git_Checkout/Git_Checkout/codebook/Cluster/Main.qml</file>
+    <file alias="Speedometer.qml">D:/Git_Checkout/Git_Checkout/codebook/Cluster/Speedometer.qml</file>
+    <file alias="RPMGauge.qml">D:/Git_Checkout/Git_Checkout/codebook/Cluster/RPMGauge.qml</file>
+    <file alias="FuelGauge.qml">D:/Git_Checkout/Git_Checkout/codebook/Cluster/FuelGauge.qml</file>
+    <file alias="EngineTemp.qml">D:/Git_Checkout/Git_Checkout/codebook/Cluster/EngineTemp.qml</file>
+    <file alias="Trip.qml">D:/Git_Checkout/Git_Checkout/codebook/Cluster/Trip.qml</file>
+    <file alias="Odometer.qml">D:/Git_Checkout/Git_Checkout/codebook/Cluster/Odometer.qml</file>
+    <file alias="Indicators.qml">D:/Git_Checkout/Git_Checkout/codebook/Cluster/Indicators.qml</file>
+    <file alias="GearColumn.qml">D:/Git_Checkout/Git_Checkout/codebook/Cluster/GearColumn.qml</file>
+  </qresource>
+</RCC>
+

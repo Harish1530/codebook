@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/quickProject1/">
-    <file alias="qmldir">/home/harish-1530/Git_Checkout/codebook/quickProject1/qmldir</file>
-  </qresource>
-</RCC>
-

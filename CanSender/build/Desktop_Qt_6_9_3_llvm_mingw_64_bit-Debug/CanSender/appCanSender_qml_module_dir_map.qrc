@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/CanSender">D:/Git_Checkout/CanSender/build/Desktop_Qt_6_9_3_llvm_mingw_64_bit-Debug/CanSender</file>
+
+  </qresource>
+</RCC>

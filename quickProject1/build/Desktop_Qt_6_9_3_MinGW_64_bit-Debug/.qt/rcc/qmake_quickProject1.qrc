@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/quickProject1">
-    <file alias="qmldir">D:/Git_Checkout/quickProject1/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/quickProject1/qmldir</file>
-  </qresource>
-</RCC>
-

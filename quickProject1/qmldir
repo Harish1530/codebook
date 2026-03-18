@@ -1,9 +1,0 @@
-module Cluster
-singleton Theme 1.0 Theme.qml
-
-Speedometer 1.0 Speedometer.qml
-RPMGauge 1.0 RPMGauge.qml
-FuelGauge 1.0 FuelGauge.qml
-Indicators 1.0 Indicators.qml
-Trip 1.0 Trip.qml
-Odometer 1.0 Odometer.qml

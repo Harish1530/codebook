@@ -1,0 +1,108 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 258,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 4
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 130,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "Cannot access value for name leftIndicator",
+                        "functionName": "color",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 108,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "Cannot access value for name engineWarning",
+                        "functionName": "color",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 78,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "Cannot access value for name serviceWarning",
+                        "functionName": "color",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "Cannot access value for name absWarning",
+                        "functionName": "color",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 62,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "Cannot access value for name rightIndicator",
+                        "functionName": "color",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 49
+                    }
+                ],
+                "filePath": "D:/Git_Checkout/Git_Checkout/codebook/Cluster/Indicators.qml"
+            }
+        ],
+        "moduleId": "Cluster(Cluster)"
+    }
+]

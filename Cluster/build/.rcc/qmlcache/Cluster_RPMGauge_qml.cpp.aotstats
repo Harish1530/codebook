@@ -1,0 +1,124 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 540,
+                        "errorMessage": "Cannot access value for name cluster",
+                        "functionName": "rpm",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 276,
+                        "errorMessage": "",
+                        "functionName": "startRad",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 134,
+                        "errorMessage": "",
+                        "functionName": "endRad",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "gaugeSpan",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 171,
+                        "errorMessage": "",
+                        "functionName": "outerRadius",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 90,
+                        "errorMessage": "",
+                        "functionName": "innerRadius",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "needleLength",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 188,
+                        "errorMessage": "",
+                        "functionName": "onRpmChanged",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 82,
+                        "errorMessage": "",
+                        "functionName": "onWidthChanged",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "onHeightChanged",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "Cannot access value for name stepInterval",
+                        "functionName": "interval",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 611,
+                        "errorMessage": "Cannot access value for name displayedRpm",
+                        "functionName": "onTriggered",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 5933,
+                        "errorMessage": "Cannot access value for name outerRadius",
+                        "functionName": "onPaint",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 112,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 57
+                    }
+                ],
+                "filePath": "D:/Git_Checkout/Git_Checkout/codebook/Cluster/RPMGauge.qml"
+            }
+        ],
+        "moduleId": "Cluster(Cluster)"
+    }
+]
